@@ -1,0 +1,26 @@
+[
+    {
+        "id": "aikeychain",
+        "prodName": "Ai Yoshino Embroidered Jet Tag Keychain",
+        "photo1": "img/ai.jpg",
+        "photo2": "img/ai1.jpg",
+        "photo3": "img/ai2.jpg",
+        "price": "426.04"
+      },
+      {
+          "id": "akazakeychain",
+          "prodName": "Akaza Embroidered Jet Tag Keychain",
+          "photo1": "img/akaza.jpg",
+          "photo2": "img/akaza1.jpg",
+          "photo3": "img/akaza2.jpg",
+          "price": "426.04"
+      },
+      {
+          "id": "akikeychain",
+          "prodName": "Aki Hayakawa Embroidered Jet Tag Keychain",
+          "photo1": "img/aki.jpg",
+          "photo2": "img/aki1.jpg",
+          "photo3": "img/aki2.jpg",
+          "price": "426.04"
+      }
+]
