@@ -86,5 +86,255 @@
             "photo1": "img/figrem.webp",
             "photo2": "img/figrem1.webp"
         }
+      ],
+      "tshirts": [
+        {   
+            "id": "anyashirt",
+            "prodName": "SpyxFamily Anya Expressions",
+            "photo1": "img/tshits/anya1.jpg",
+            "photo2": "img/tshits/anya2.jpg",
+            "price": "349.00"
+        },
+        {   
+            "id": "colossalshirt",
+            "prodName": "AOT - Colossal Titan T-Shirt",
+            "photo1": "img/tshits/colossal1.jpg",
+            "photo2": "img/tshits/colossal2.jpg",
+            "price": "360.05"
+        },
+        {   
+            "id": "gonshirt",
+            "prodName": "HxH- Gon T-Shirt",
+            "photo1": "img/tshits/.gon1jpg",
+            "photo2": "img/tshits/.gon2jpg",
+            "price": "299.50"
+        },
+        {   
+            "id": "kanekiShirt",
+            "prodName": "Tokyo Ghoul - Keneki T-Shirt",
+            "photo1": "img/tshits/.kaneki1jpg",
+            "price": "339.40"
+        },
+        {   
+            "id": "kanekirizeShirt",
+            "prodName": "Tokyo Ghoul - Keneki & Rize T-Shirt",
+            "photo1": "img/tshits/kanekirize.jpg",
+            "price": "339.40"
+        },
+        {   
+            "id": "makimaShirt",
+            "prodName": "Chainsaw Man - Makima T-Shirt",
+            "photo1": "img/tshits/makima1.jpg",
+            "photo2": "img/tshits/makima 2.jpg",
+            "price": "389.60"
+        },
+        {   
+            "id": "powerShirt",
+            "prodName": "Chainsaw Man - Power T-Shirt",
+            "photo1": "img/tshits/power1.jpg",
+            "photo2": "img/tshits/power2.jpg",
+            "price": "399.00"
+        }
+      ],
+      "hoodies": [
+        {
+            "id": "darlingfranxxHoodies",
+            "prodName": "Darling Franxx - Logo Hoodie",
+            "photo1": "img/hoodies/darlingfranx0.jpg",
+            "photo2": "img/hoodies/darlingfranx1.jpg",
+            "photo3": "img/hoodies/darlingfranx2.jpg",
+            "photo4": "img/hoodies/darlingfranx4.jpg",
+            "photo5": "img/hoodies/darlingfranx5.jpg",
+            "price": "549.00"
+        },
+        {   
+            "id": "gokuHoodies",
+            "prodName": "DragonBall - Goku Hoddie",
+            "photo1": "img/hoodies/goku1hoodie.jpg",
+            "photo2": "img/hoodies/goku2hoodie.jpg",
+            "price": "499.00"
+        },
+        {   
+            "id": "gonHoodie",
+            "prodName": "HxH - Gon Hoodie",
+            "photo1": "img/hoodies/gonhoodie.jpg",
+            "price": "450.00"
+        },
+        {   
+            "id": "jjkHoodie",
+            "prodName": "JJK - Kanji Logo Hoodie",
+            "photo1": "img/hoodies/jjk0.jpg",
+            "photo2": "img/hoodies/jjk1.jpg",
+            "price": "449.50"
+        },
+        {   
+            "id": "narutoHoodie",
+            "prodName": "Naruto Shippuden - Shadow Clones Hoodie",
+            "photo1": "img/hoodies/naruto.jpg",
+            "price": "450.00"
+        },
+        {   
+            "id": "narutoHoodie1",
+            "prodName": "Naruto Shippuden - Naruto Kanji Hoodie",
+            "photo1": "img/hoodies/naruto2hoodie.jpg",
+            "price": "399.00"
+        },
+        {   
+            "id": "neongeneisHoodie",
+            "prodName": "Neon Genesis - Asuka Shikinami",
+            "photo1": "img/hoodies/neongenesishoodie.jpg",
+            "price": "399.00"
+        },
+        {   
+            "id": "tokyoghoulHoodie",
+            "prodName": "Tokyo Ghoul - Kanji Keneki Mask",
+            "photo1": "img/hoodies/tokyoghouldhoodie.jpg",
+            "price": "399.00"
+        },
+        {   
+            "id": "zerotwoSweatShirt",
+            "prodName": "Darling Franxx - Zero Two Sweat Shirt",
+            "photo1": "img/hoodies/zeroTwoSweatShirt0.jpg",
+            "photo2": "img/hoodies/zeroTwoSweatShirt1.jpg",
+            "photo3": "img/hoodies/zeroTwoSweatShirt2/jpg",
+            "price": "399.00"
+        }
+      ],
+      "mousepads": [
+        {   
+            "id": "chainsawChicksMouspad",
+            "prodName": "Chainsaw Man - Chainsaw Chicks Mousepad",
+            "photo1": "img/mousepad/ChainsawChicks.webp",
+            "photo2": "img/mousepad/mousepad_sizes.jpg",
+            "price": "250.00"
+        },
+        {   
+            "id": "chainsawSilhouettesMousepad",
+            "prodName": "Chainsaw Man - Chainsaw Silhouettes Mousepad",
+            "photo1": "img/mousepad/ChainsawSilhouettes.webp",
+            "photo2": "img/mousepad/mousepad_sizes.jpg",
+            "price": "250.00"
+        },
+        {   
+            "id": "criticalChainsawMousepad",
+            "prodName": "Chainsaw Man - Critical Chainsaw Mousepad",
+            "photo1": "img/mousepad/CriticalChainsaw.webp",
+            "photo2": "img/mousepad/mousepad_sizes.jpg",
+            "price": "250.00"
+        },
+        {   
+            "id": "giyuMousepad",
+            "prodName": "Demon Slayer - Giyu Tomioka Mousepad",
+            "photo1": "img/mousepad/GiyuDS.jpg",
+            "photo2": "img/mousepad/mousepad_sizes.jpg",
+            "price": "450.00"
+        },
+        {   
+            "id": "mhaHeroVsVillanMousepad",
+            "prodName": "My Hero Academia - Hero Vs Villan Mousepad",
+            "photo1": "img/mousepad/HeroVsVillanMHA.jpg",
+            "photo2": "img/mousepad/mousepad_sizes.jpg",
+            "price": "250.00"
+        },
+        {   
+            "id": "inosukeMousepad",
+            "prodName": "Demon Slayer - Inosuke Mousepad",
+            "photo1": "img/mousepad/InosukeDS.jpg",
+            "photo2": "img/mousepad/mousepad_sizes.jpg",
+            "price": "250.00"
+        },
+        {   
+            "id": "lustofpowerMousepad",
+            "prodName": "Chainsaw Man - Lust of Power Mousepad",
+            "photo1": "img/mousepad/LustofPowr.webp",
+            "photo2": "img/mousepad/mousepad_sizes.jpg",
+            "price": "250.00"
+        },
+        {   
+            "id": "onepieceMousepad",
+            "prodName": "Ome Piece - Boat Mousepad",
+            "photo1": "img/mousepad/OnePeace.jpg",
+            "photo2": "img/mousepad/mousepad_sizes.jpg",
+            "price": "250.00"
+        },
+        {   
+            "id": "onepieceCharsMousepad",
+            "prodName": "One Piece - Characters Mousepad",
+            "photo1": "img/mousepad/OnePeaceChars.jpg",
+            "photo2": "img/mousepad/mousepad_sizes.jpg",
+            "price": "250.00"
+        },
+        {   
+            "id": "onepeiceLuffyMousepad",
+            "prodName": "One Piece - Luffy Mousepad",
+            "photo1": "img/mousepad/OnePeaceLuffy.jpg",
+            "photo2": "img/mousepad/mousepad_sizes.jpg",
+            "price": "250.00"
+        },
+        {   
+            "id": "onepieceNewWorldMousepad",
+            "prodName": "One Piece - New World Mousepad",
+            "photo1": "img/mousepad/OnePeaceNewWorld.jpg",
+            "photo2": "img/mousepad/mousepad_sizes.jpg",
+            "price": "250.00"
+        },
+        {   
+            "id": "onepieceZoroMousepad",
+            "prodName": "One Piece - Zoro Mousepad",
+            "photo1": "img/mousepad/OnePeaceZoro.jpg",
+            "photo2": "img/mousepad/mousepad_sizes.jpg",
+            "price": "250.00"
+        },
+        {   
+            "id": "pochitaLoveMousepad",
+            "prodName": "Chainsaw Man - Pochita Love Mousepad",
+            "photo1": "img/mousepad/PochitaLove.webp",
+            "photo2": "img/mousepad/mousepad_sizes.jpg",
+            "price": "250.00"
+        },
+        {   
+            "id": "powerMousepad",
+            "prodName": "Chainsaw Man - Power Mousepad",
+            "photo1": "img/mousepad/Power.Power.webp",
+            "photo2": "img/mousepad/mousepad_sizes.jpg",
+            "price": "250.00"
+        },
+        {   
+            "id": "rengokuDSMousepad",
+            "prodName": "Demon Slayer - Rengoku Mousepad",
+            "photo1": "img/mousepad/RengokuDS.jpg",
+            "photo2": "img/mousepad/mousepad_sizes.jpg",
+            "price": "250.00"
+        },
+        {   
+            "id": "shinobuDSMousepad",
+            "prodName": "Demon Slayer - Shinobu Mousepad",
+            "photo1": "img/mousepad/ShinobuDS.jpg",
+            "photo2": "img/mousepad/mousepad_sizes.jpg",
+            "price": "250.00"
+        },
+        {   
+            "id": "shotoMHAMousepad",
+            "prodName": "My Hero Academia - Shoto Mousepad",
+            "photo1": "img/mousepad/ShotoMHA.jpg",
+            "photo2": "img/mousepad/mousepad_sizes.jpg",
+            "price": "250.00"
+        },
+        {   
+            "id": "siblingsDSMousepad",
+            "prodName": "Demon Slayer - Siblings Mousepad",
+            "photo1": "img/mousepad/SiblingsDS.jpg",
+            "photo2": "img/mousepad/Siblings1DS.jpg",
+            "photo3": "img/mousepad/mousepad_sizes.jpg",
+            "price": "250.00"
+        },
+        {   
+            "id": "zenitsuDSMousepad",
+            "prodName": "Demon Slayer - Zenitsu Mousepad",
+            "photo1": "img/mousepad/ZenitsuDS.jpg",
+            "photo2": "img/mousepad/mousepad_sizes.jpg",
+            "price": "250.00"
+        },
       ]
+
     }
