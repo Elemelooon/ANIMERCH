@@ -23,6 +23,54 @@
             "photo2": "img/aki1.jpg",
             "photo3": "img/aki2.jpg",
             "price": "426.04"
+        },
+        {
+            "id": "gojokeychain",
+            "prodName": "Gojo Satoru Embroidered Jet Tag Keychain",
+            "photo1": "img/gojo.jpg",
+            "photo2": "img/gojo1.jpg",
+            "photo3": "img/gojo2.jpg",
+            "price": "426.04"
+        },
+        {
+            "id": "killuakeychain",
+            "prodName": "Killua Zoldyck Embroidered Jet Tag Keychain",
+            "photo1": "img/killua.jpg",
+            "photo2": "img/killua1.jpg",
+            "photo3": "img/killua2.jpg",
+            "price": "426.04"
+        },
+        {
+            "id": "robinkeychain",
+            "prodName": "Nico Robin Embroidered Jet Tag Keychain",
+            "photo1": "img/robin.jpg",
+            "photo2": "img/robin1.jpg",
+            "photo3": "img/robin2.jpg",
+            "price": "426.04"
+        },
+        {
+            "id": "yorkeychain",
+            "prodName": "Yor Forger Embroidered Jet Tag Keychain",
+            "photo1": "img/yor.jpg",
+            "photo2": "img/yor1.jpg",
+            "photo3": "img/yor2.jpg",
+            "price": "426.04"
+        },
+        {
+            "id": "zenitsukeychain",
+            "prodName": "Zenitsu Agatsuma Embroidered Jet Tag Keychain",
+            "photo1": "img/zenitsu.jpg",
+            "photo2": "img/zenitsu1.jpg",
+            "photo3": "img/zenitsu2.jpg",
+            "price": "426.04"
+        },
+        {
+            "id": "zorokeychain",
+            "prodName": "Roronoa Zoro Embroidered Jet Tag Keychain",
+            "photo1": "img/zoro.jpg",
+            "photo2": "img/zoro1.jpg",
+            "photo3": "img/zoro2.jpg",
+            "price": "426.04"
         }
       ],
       "figurines": [
