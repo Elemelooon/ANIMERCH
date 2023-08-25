@@ -79,55 +79,64 @@
             "id": "chmanfig",
             "prodName": "Chainsaw Man Figurine",
             "photo1": "img/figurines/figchman.webp",
-            "photo2": "img/figurines/figchman1.webp"
+            "photo2": "img/figurines/figchman1.webp",
+            "price": "7,225.81"
         },
         {
             "id": "remfig",
             "prodName": "Rem Figurine",
             "photo1": "img/figurines/figrem.webp",
-            "photo2": "img/figurines/figrem1.webp"
+            "photo2": "img/figurines/figrem1.webp",
+            "price": "6,193.85"
         },
         {
             "id": "lawfig",
             "prodName": "Trafalgar Law Figurine",
             "photo1": "img/figurines/figlaw.jpg",
-            "photo2": "img/figurines/figlaw1.jpg"
+            "photo2": "img/figurines/figlaw1.jpg",
+            "price": "5,343.85"
         },
         {
             "id": "luffyfig",
             "prodName": "Monkey D. Luffy Figurine",
             "photo1": "img/figurines/figluffy.webp",
-            "photo2": "img/figurines/figluffy1.webp"
+            "photo2": "img/figurines/figluffy1.webp",
+            "price": "7,793.25"
         },
         {
-            "id": "ramfig",
+            "id": "rammaidfig",
             "prodName": "Maid Outfit Ram Figurine",
             "photo1": "img/figurines/figmaidram.webp",
-            "photo2": "img/figurines/figmaidram1.webp"
+            "photo2": "img/figurines/figmaidram1.webp",
+            "price": "2,580.50"
         },
         {
-            "id": "remfig",
+            "id": "remmaidfig",
             "prodName": "Maid Outfit Rem Figurine",
             "photo1": "img/figurines/figmaidrem.webp",
-            "photo2": "img/figurines/figmaidrem1.webp"
+            "photo2": "img/figurines/figmaidrem1.webp",
+            "price": "3,580.50"
         },
         {
             "id": "powerfig",
             "prodName": "Power Figurine",
             "photo1": "img/figurines/figpower.webp",
-            "photo2": "img/figurines/figpower1.webp"
+            "photo2": "img/figurines/figpower1.webp",
+            "price": "4,113.85"
         },
         {
             "id": "rengokufig",
             "prodName": "Kyojuro Rengoku Figurine",
             "photo1": "img/figurines/figrengoku.jpg",
-            "photo2": "img/figurines/figrengoku1.jpg"
+            "photo2": "img/figurines/figrengoku1.jpg",
+            "price": "2,780.50"
         },
         {
             "id": "saberfig",
             "prodName": "Artoria Pendragon (Saber) Figurine",
             "photo1": "img/figurines/figsaber.webp",
-            "photo2": "img/figurines/figsaber1.webp"
+            "photo2": "img/figurines/figsaber1.webp",
+            "price": "7,035.00"
         }
       ],
       "tshirts": [
