@@ -1,5 +1,6 @@
 {
-      "keychain": [
+"products": {
+     "keychain": [
         {
           "id": "aikeychain",
           "prodName": "Ai Yoshino Embroidered Jet Tag Keychain",
@@ -378,5 +379,5 @@
             "price": "250.00"
         }
       ]
-
     }
+}
