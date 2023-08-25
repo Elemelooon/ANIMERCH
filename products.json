@@ -3,73 +3,73 @@
         {
           "id": "aikeychain",
           "prodName": "Ai Yoshino Embroidered Jet Tag Keychain",
-          "photo1": "img/ai.jpg",
-          "photo2": "img/ai1.jpg",
-          "photo3": "img/ai2.jpg",
+          "photo1": "img/keychains/ai.jpg",
+          "photo2": "img/keychains/ai1.jpg",
+          "photo3": "img/keychains/ai2.jpg",
           "price": "426.04"
         },
         {
             "id": "akazakeychain",
             "prodName": "Akaza Embroidered Jet Tag Keychain",
-            "photo1": "img/akaza.jpg",
-            "photo2": "img/akaza1.jpg",
-            "photo3": "img/akaza2.jpg",
+            "photo1": "img/keychains/akaza.jpg",
+            "photo2": "img/keychains/akaza1.jpg",
+            "photo3": "img/keychains/akaza2.jpg",
             "price": "426.04"
         },
         {
             "id": "akikeychain",
             "prodName": "Aki Hayakawa Embroidered Jet Tag Keychain",
-            "photo1": "img/aki.jpg",
-            "photo2": "img/aki1.jpg",
-            "photo3": "img/aki2.jpg",
+            "photo1": "img/keychains/aki.jpg",
+            "photo2": "img/keychains/aki1.jpg",
+            "photo3": "img/keychains/aki2.jpg",
             "price": "426.04"
         },
         {
             "id": "gojokeychain",
             "prodName": "Gojo Satoru Embroidered Jet Tag Keychain",
-            "photo1": "img/gojo.jpg",
-            "photo2": "img/gojo1.jpg",
-            "photo3": "img/gojo2.jpg",
+            "photo1": "img/keychains/gojo.jpg",
+            "photo2": "img/keychains/gojo1.jpg",
+            "photo3": "img/keychains/gojo2.jpg",
             "price": "426.04"
         },
         {
             "id": "killuakeychain",
             "prodName": "Killua Zoldyck Embroidered Jet Tag Keychain",
-            "photo1": "img/killua.jpg",
-            "photo2": "img/killua1.jpg",
-            "photo3": "img/killua2.jpg",
+            "photo1": "img/keychains/killua.jpg",
+            "photo2": "img/keychains/killua1.jpg",
+            "photo3": "img/keychains/killua2.jpg",
             "price": "426.04"
         },
         {
             "id": "robinkeychain",
             "prodName": "Nico Robin Embroidered Jet Tag Keychain",
-            "photo1": "img/robin.jpg",
-            "photo2": "img/robin1.jpg",
-            "photo3": "img/robin2.jpg",
+            "photo1": "img/keychains/robin.jpg",
+            "photo2": "img/keychains/robin1.jpg",
+            "photo3": "img/keychains/robin2.jpg",
             "price": "426.04"
         },
         {
             "id": "yorkeychain",
             "prodName": "Yor Forger Embroidered Jet Tag Keychain",
-            "photo1": "img/yor.jpg",
-            "photo2": "img/yor1.jpg",
-            "photo3": "img/yor2.jpg",
+            "photo1": "img/keychains/yor.jpg",
+            "photo2": "img/keychains/yor1.jpg",
+            "photo3": "img/keychains/yor2.jpg",
             "price": "426.04"
         },
         {
             "id": "zenitsukeychain",
             "prodName": "Zenitsu Agatsuma Embroidered Jet Tag Keychain",
-            "photo1": "img/zenitsu.jpg",
-            "photo2": "img/zenitsu1.jpg",
-            "photo3": "img/zenitsu2.jpg",
+            "photo1": "img/keychains/zenitsu.jpg",
+            "photo2": "img/keychains/zenitsu1.jpg",
+            "photo3": "img/keychains/zenitsu2.jpg",
             "price": "426.04"
         },
         {
             "id": "zorokeychain",
             "prodName": "Roronoa Zoro Embroidered Jet Tag Keychain",
-            "photo1": "img/zoro.jpg",
-            "photo2": "img/zoro1.jpg",
-            "photo3": "img/zoro2.jpg",
+            "photo1": "img/keychains/zoro.jpg",
+            "photo2": "img/keychains/zoro1.jpg",
+            "photo3": "img/keychains/zoro2.jpg",
             "price": "426.04"
         }
       ],
@@ -77,62 +77,104 @@
         {
             "id": "chmanfig",
             "prodName": "Chainsaw Man Figurine",
-            "photo1": "img/figchman.webp",
-            "photo2": "img/figchman1.webp"
+            "photo1": "img/figurines/figchman.webp",
+            "photo2": "img/figurines/figchman1.webp"
         },
         {
             "id": "remfig",
             "prodName": "Rem Figurine",
-            "photo1": "img/figrem.webp",
-            "photo2": "img/figrem1.webp"
+            "photo1": "img/figurines/figrem.webp",
+            "photo2": "img/figurines/figrem1.webp"
+        },
+        {
+            "id": "lawfig",
+            "prodName": "Trafalgar Law Figurine",
+            "photo1": "img/figurines/figlaw.jpg",
+            "photo2": "img/figurines/figlaw1.jpg"
+        },
+        {
+            "id": "luffyfig",
+            "prodName": "Monkey D. Luffy Figurine",
+            "photo1": "img/figurines/figluffy.webp",
+            "photo2": "img/figurines/figluffy1.webp"
+        },
+        {
+            "id": "ramfig",
+            "prodName": "Maid Outfit Ram Figurine",
+            "photo1": "img/figurines/figmaidram.webp",
+            "photo2": "img/figurines/figmaidram1.webp"
+        },
+        {
+            "id": "remfig",
+            "prodName": "Maid Outfit Rem Figurine",
+            "photo1": "img/figurines/figmaidrem.webp",
+            "photo2": "img/figurines/figmaidrem1.webp"
+        },
+        {
+            "id": "powerfig",
+            "prodName": "Power Figurine",
+            "photo1": "img/figurines/figpower.webp",
+            "photo2": "img/figurines/figpower1.webp"
+        },
+        {
+            "id": "rengokufig",
+            "prodName": "Kyojuro Rengoku Figurine",
+            "photo1": "img/figurines/figrengoku.jpg",
+            "photo2": "img/figurines/figrengoku1.jpg"
+        },
+        {
+            "id": "saberfig",
+            "prodName": "Artoria Pendragon (Saber) Figurine",
+            "photo1": "img/figurines/figsaber.webp",
+            "photo2": "img/figurines/figsaber1.webp"
         }
       ],
       "tshirts": [
         {   
             "id": "anyashirt",
             "prodName": "SpyxFamily Anya Expressions",
-            "photo1": "img/tshits/anya1.jpg",
-            "photo2": "img/tshits/anya2.jpg",
+            "photo1": "img/tshirts/anya1.jpg",
+            "photo2": "img/tshirts/anya2.jpg",
             "price": "349.00"
         },
         {   
             "id": "colossalshirt",
             "prodName": "AOT - Colossal Titan T-Shirt",
-            "photo1": "img/tshits/colossal1.jpg",
-            "photo2": "img/tshits/colossal2.jpg",
+            "photo1": "img/tshirts/colossal1.jpg",
+            "photo2": "img/tshirts/colossal2.jpg",
             "price": "360.05"
         },
         {   
             "id": "gonshirt",
             "prodName": "HxH- Gon T-Shirt",
-            "photo1": "img/tshits/.gon1jpg",
-            "photo2": "img/tshits/.gon2jpg",
+            "photo1": "img/tshirts/.gon1jpg",
+            "photo2": "img/tshirts/.gon2jpg",
             "price": "299.50"
         },
         {   
             "id": "kanekiShirt",
             "prodName": "Tokyo Ghoul - Keneki T-Shirt",
-            "photo1": "img/tshits/.kaneki1jpg",
+            "photo1": "img/tshirts/.kaneki1jpg",
             "price": "339.40"
         },
         {   
             "id": "kanekirizeShirt",
             "prodName": "Tokyo Ghoul - Keneki & Rize T-Shirt",
-            "photo1": "img/tshits/kanekirize.jpg",
+            "photo1": "img/tshirts/kanekirize.jpg",
             "price": "339.40"
         },
         {   
             "id": "makimaShirt",
             "prodName": "Chainsaw Man - Makima T-Shirt",
-            "photo1": "img/tshits/makima1.jpg",
-            "photo2": "img/tshits/makima 2.jpg",
+            "photo1": "img/tshirts/makima1.jpg",
+            "photo2": "img/tshirts/makima 2.jpg",
             "price": "389.60"
         },
         {   
             "id": "powerShirt",
             "prodName": "Chainsaw Man - Power T-Shirt",
-            "photo1": "img/tshits/power1.jpg",
-            "photo2": "img/tshits/power2.jpg",
+            "photo1": "img/tshirts/power1.jpg",
+            "photo2": "img/tshirts/power2.jpg",
             "price": "399.00"
         }
       ],
