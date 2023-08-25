@@ -3,17 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Belanosima Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Belanosima&family=Carter+One&family=Libre+Baskerville&family=Lugrasimo&family=Monoton&family=Roboto+Slab:wght@300&family=Ysabeau+SC&display=swap" rel="stylesheet">
+    <!-- Acme Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+    <!-- ICONS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="">  
+    <!-- BOOTSTRAP -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />   
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-    <link rel="stylesheet" href="script.js">
+    <!-- CSS -->
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
     <input type="checkbox" id="check">
+    <!-- NAVBAR -->
     <nav>
         <div class="icon">LOGO</div>
         <div class="search-box">
@@ -31,6 +42,7 @@
             <span class="fa-solid fa-xmark" id="times"></span>
         </label>
     </nav>
+    <!-- /NAVBAR -->
 
     <!-- CAROUSEL -->
     <div class="carousel-container">
@@ -85,7 +97,19 @@
             </button>
         </div>
     </div>
-    
+    <!-- /CAROUSEL -->
+
+    <!-- CARD -->
+    <div class="container">
+        <h1>Keychains</h1>
+        <ul id="results"></ul>
+        <div class="row g-4" id="trial">
+
+        </div>
+
+    </div>
+    <!-- /CARD -->
+
     <!-- FOOTER -->
     <footer class="footer">
         <div class="container">
@@ -128,8 +152,10 @@
                 </div>
             </div>
         </div>
-        
+        <!-- /FOOTER -->
     </footer>
 
 </body>
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </html>
