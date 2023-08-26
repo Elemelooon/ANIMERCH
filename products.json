@@ -157,14 +157,14 @@
         {   
             "id": "gonshirt",
             "prodName": "HxH- Gon T-Shirt",
-            "photo1": "img/tshirts/.gon1jpg",
-            "photo2": "img/tshirts/.gon2jpg",
+            "photo1": "img/tshirts/.gon1.jpg",
+            "photo2": "img/tshirts/.gon2.jpg",
             "price": "299.50"
         },
         {   
             "id": "kanekiShirt",
             "prodName": "Tokyo Ghoul - Keneki T-Shirt",
-            "photo1": "img/tshirts/.kaneki1jpg",
+            "photo1": "img/tshirts/.kaneki1.jpg",
             "price": "339.40"
         },
         {   
@@ -240,7 +240,7 @@
         {   
             "id": "tokyoghoulHoodie",
             "prodName": "Tokyo Ghoul - Kanji Keneki Mask",
-            "photo1": "img/hoodies/tokyoghouldhoodie.jpg",
+            "photo1": "img/hoodies/tokyoghoulhoodie.jpg",
             "price": "399.00"
         },
         {   
@@ -298,7 +298,7 @@
         {   
             "id": "lustofpowerMousepad",
             "prodName": "Chainsaw Man - Lust of Power Mousepad",
-            "photo1": "img/mousepad/LustofPowr.webp",
+            "photo1": "img/mousepad/LustofPower.webp",
             "photo2": "img/mousepad/mousepad_sizes.jpg",
             "price": "250.00"
         },
@@ -347,7 +347,7 @@
         {   
             "id": "powerMousepad",
             "prodName": "Chainsaw Man - Power Mousepad",
-            "photo1": "img/mousepad/Power.Power.webp",
+            "photo1": "img/mousepad/Power.webp",
             "photo2": "img/mousepad/mousepad_sizes.jpg",
             "price": "250.00"
         },
