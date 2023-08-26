@@ -157,14 +157,14 @@
         {   
             "id": "gonshirt",
             "prodName": "HxH- Gon T-Shirt",
-            "photo1": "img/tshirts/.gon1.jpg",
-            "photo2": "img/tshirts/.gon2.jpg",
+            "photo1": "img/tshirts/gon1.jpg",
+            "photo2": "img/tshirts/gon2.jpg",
             "price": "299.50"
         },
         {   
             "id": "kanekiShirt",
             "prodName": "Tokyo Ghoul - Keneki T-Shirt",
-            "photo1": "img/tshirts/.kaneki1.jpg",
+            "photo1": "img/tshirts/kaneki.jpg",
             "price": "339.40"
         },
         {   
