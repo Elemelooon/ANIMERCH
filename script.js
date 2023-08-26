@@ -48,7 +48,7 @@ let password = document.getElementById("password");
 let confirmPassword = document.getElementById("confirmPassword");
 let signUpBtn = document.getElementById("signUpBtn");
 
-signUpBtn.addEventListener("click", registerInformation);
+// signUpBtn.addEventListener("click", registerInformation);
 
 function registerInformation(event){
     event.preventDefault();
@@ -112,7 +112,7 @@ document.addEventListener("DOMContentLoaded", function () {
                             PHP ${item.price}
                         </div>
                         <div class="card-footer text-center">
-                            <button class="btn atc"><i class="fa-solid fa-plus"></i>Add to Cart</button>
+                            <button class="btn atc" id="addtocart" onclick="addCart('${item.prodName}', ${item.price}, '${item.photo1}')"><i class="fa-solid fa-plus"></i>Add to Cart</button>
                         </div>
                     </div>
                 </div>`;
@@ -120,10 +120,47 @@ document.addEventListener("DOMContentLoaded", function () {
             prodDisplay.innerHTML += display;
         }
 
-        generateButton.disabled = false;
-        spinner.classList.add("hidden");
     })
     .catch(function (error) {
         console.error("Error fetching product data:", error);
     });
 });
+
+//CART
+
+let cart = [];
+
+if (localStorage.getItem("myCart")){
+    cart = JSON.parse(localStorage.getItem("myCart"));
+}
+
+function addCart(prodName, prodPrice, prodImg) {
+    alert("Sucessfully Added to Cart");
+    cart.push({pName: prodName, pPrice: prodPrice, pImg: prodImg});
+
+    localStorage.setItem("myCart", JSON.stringify(cart));
+    
+}
+
+function displayCart(){
+    let totalPrice = 0;
+    let getCart = JSON.parse(localStorage.getItem("myCart"));
+    let showItems = "";
+    getCart.forEach(
+        function(items){
+            showItems = showItems +
+            `<div class="cartitem">
+            <img src=${items.pImg} id="itemimage">
+            <h5 id="itemname">${items.pName}</h3>
+
+            <p id="itemprice">PHP ${items.pPrice}</p>
+            <hr>
+            </div>`
+            totalPrice = Number(totalPrice) + items.pPrice;
+        }
+    )
+    document.getElementById('cartlist').innerHTML = showItems;
+    document.getElementById('total').innerHTML = totalPrice;
+    document.getElementById('subtotal').innerHTML = totalPrice;
+}
+displayCart();
