@@ -163,13 +163,13 @@
         },
         {   
             "id": "kanekiShirt",
-            "prodName": "Tokyo Ghoul - Keneki T-Shirt",
+            "prodName": "Tokyo Ghoul - Kaneki T-Shirt",
             "photo1": "img/tshirts/kaneki.jpg",
             "price": "339.40"
         },
         {   
             "id": "kanekirizeShirt",
-            "prodName": "Tokyo Ghoul - Keneki & Rize T-Shirt",
+            "prodName": "Tokyo Ghoul - Kaneki & Rize T-Shirt",
             "photo1": "img/tshirts/kanekirize.jpg",
             "price": "339.40"
         },
@@ -239,7 +239,7 @@
         },
         {   
             "id": "tokyoghoulHoodie",
-            "prodName": "Tokyo Ghoul - Kanji Keneki Mask",
+            "prodName": "Tokyo Ghoul - Kanji Kaneki Mask",
             "photo1": "img/hoodies/tokyoghoulhoodie.jpg",
             "price": "399.00"
         },
@@ -304,7 +304,7 @@
         },
         {   
             "id": "onepieceMousepad",
-            "prodName": "Ome Piece - Boat Mousepad",
+            "prodName": "One Piece - Boat Mousepad",
             "photo1": "img/mousepad/OnePeace.jpg",
             "photo2": "img/mousepad/mousepad_sizes.jpg",
             "price": "250.00"
