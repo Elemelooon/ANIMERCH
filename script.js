@@ -88,6 +88,7 @@ function registerInformation(event){
     }
 }
     
+// ONGOING FILTER
 let selectBtn = document.querySelector(".select-btn"),
     items = document.querySelectorAll(".items");
 
