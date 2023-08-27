@@ -6,7 +6,7 @@
     font-family: 'Acme', sans-serif;
 }
 body{
-    background-color: #666;
+    /* background-color: #666; */
 }
 /* NAVIGATION BAR */
 nav{
@@ -434,4 +434,21 @@ footer {
 #itemimage {
     height: 20%;
     width: 20%;
+}
+#cartbtn {
+    border-style: solid;
+}
+
+#cartitem {
+    position: relative;
+}
+
+#removebtn {
+    position: absolute;
+    top: 5px;
+    right: 5px;   
+}
+
+.ordersum {
+    max-height: 509px;
 }

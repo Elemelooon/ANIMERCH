@@ -1,46 +1,5 @@
 
-// document.addEventListener("DOMContentLoaded", function () {
-//     fetch("./products.json")
-//     .then((res) => res.json())
-//     // .then((data) => {
-//     //     displayProd(data.keychain[0]);
-//     .then((data) => {
-//         const prods = data.products; 
-        
-//         prods.forEach((prods) => {
-//             displayProd(prods);
-//         });
 
-//         function displayProd(item) {
-//             let prodDisplay = document.querySelector('#trial')
-        
-//             let display = `
-            
-//                 <div class="col-12 col-md-4">
-//                     <div class="card h-100"> 
-//                         <img src="${item.photo1}" class="card-img-top" alt="">
-//                         <div class="card-body">
-//                             <h5 class="card-title">${item.prodName}</h5>
-//                             PHP ${item.price}
-//                         </div>
-//                         <div class="card-footer text-center">
-//                             <button class="btn atc"><i class="fa-solid fa-plus"></i>Add to Cart</button>
-//                         </div>
-//                     </div>
-//                 </div>`
-        
-//             prodDisplay.innerHTML += display;
-//         }
-//     })
-//     .catch(function (error) {
-//           console.error("Error fetching user data:", error);
-//         })
-//         .finally(function () {
-//           generateButton.disabled = false;
-//           spinner.classList.add("hidden");
-//         });
-// }
-// );
     //  SIGNUP      
 let username = document.getElementById("username");
 let email = document.getElementById("email");
@@ -48,7 +7,7 @@ let password = document.getElementById("password");
 let confirmPassword = document.getElementById("confirmPassword");
 let signUpBtn = document.getElementById("signUpBtn");
     
-signUpBtn.addEventListener("click", registerInformation);
+// signUpBtn.addEventListener("click", registerInformation);
     
 function registerInformation(event){
     event.preventDefault();
@@ -88,30 +47,30 @@ function registerInformation(event){
     }
 }
     
-// ONGOING FILTER
-let selectBtn = document.querySelector(".select-btn"),
-    items = document.querySelectorAll(".items");
+                // ONGOING FILTER
+// let selectBtn = document.querySelector(".select-btn"),
+//     items = document.querySelectorAll(".items");
 
-selectBtn.addEventListener("click", () => {
-    selectBtn.classList.toggle("open");
-});
+// selectBtn.addEventListener("click", () => {
+//     selectBtn.classList.toggle("open");
+// });
 
-items.forEach(item => {
-    item.addEventListener("click", () => {
-        item.classList.toggle("checked");
+// items.forEach(item => {
+//     item.addEventListener("click", () => {
+//         item.classList.toggle("checked");
 
-        let checked = document.querySelectorAll(".checked"),
-        btnText = document.querySelector(".btn-text");
+//         let checked = document.querySelectorAll(".checked"),
+//         btnText = document.querySelector(".btn-text");
         
-        if(checked && checked.length > 0){
-            btnText.innerHTML = `${checked.length} Selected`;
-        }else{
-            btnText.innerHTML = `Select Product`;
-        }
-    })
-});
+//         if(checked && checked.length > 0){
+//             btnText.innerHTML = `${checked.length} Selected`;
+//         }else{
+//             btnText.innerHTML = `Select Product`;
+//         }
+//     })
+// });
 
-
+//DISPLAY ALL PRODUCTS
 document.addEventListener("DOMContentLoaded", function () {
     let prodDisplay = document.querySelector('#trial');
 
@@ -127,13 +86,17 @@ document.addEventListener("DOMContentLoaded", function () {
         }
 
         function displayProd(item) {
+            let price = item.price.toLocaleString('en-PH', {
+                style: 'currency',
+                currency: 'PHP'
+            });
             let display = `
                 <div class="col-12 col-md-6 col-lg-3">
                     <div class="card h-100"> 
                         <img src="${item.photo1}" class="card-img-top" alt="">
                         <div class="card-body">
                             <h5 class="card-title">${item.prodName}</h5>
-                            PHP ${item.price}
+                            PHP ${price}
                         </div>
                         <div class="card-footer text-center">
                             <button class="btn atc" id="addtocart" onclick="addCart('${item.prodName}', ${item.price}, '${item.photo1}')"><i class="fa-solid fa-plus"></i>Add to Cart</button>
@@ -171,20 +134,36 @@ function displayCart(){
     let getCart = JSON.parse(localStorage.getItem("myCart"));
     let showItems = "";
     getCart.forEach(
-        function(items){
+        function(items, index){
+            let price = items.pPrice.toLocaleString('en-PH', {
+                style: 'currency',
+                currency: 'PHP'
+            });
             showItems = showItems +
-            `<div class="cartitem">
+            `<div class="cartitem" id="cartitem">
             <img src=${items.pImg} id="itemimage">
-            <h5 id="itemname">${items.pName}</h3>
-
-            <p id="itemprice">PHP ${items.pPrice}</p>
+            <button onclick='remove(${index})' class="btn-close text-white" id="removebtn"></button>
+            <h3 id="itemname">${items.pName}</h3>
+            <p id="itemprice"> ${price}</p>
             <hr>
-            </div>`
-            totalPrice = Number(totalPrice) + items.pPrice;
+            </div>`;
+            totalPrice += items.pPrice;
         }
-    )
+    );
+    let finalPrice = totalPrice.toLocaleString('en-PH', {
+        style: 'currency',
+        currency: 'PHP'
+        });
     document.getElementById('cartlist').innerHTML = showItems;
-    document.getElementById('total').innerHTML = totalPrice;
-    document.getElementById('subtotal').innerHTML = totalPrice;
+    document.getElementById('total').innerHTML = finalPrice;
+    document.getElementById('subtotal').innerHTML = finalPrice;
 }
 displayCart();
+
+function remove(index){
+    let getCart = JSON.parse(localStorage.getItem("myCart"));
+    let removedItem = getCart.splice(index, 1)[0];
+    localStorage.setItem("myCart", JSON.stringify(getCart));
+    displayCart(); 
+}
+

@@ -36,7 +36,7 @@
         <ol>
             <li><a href="index.html">HOME</a></li>
             <li><a href="#">NEW ARRIVALS</a></li>
-            <li><a href="cart.html">CART</a></li>
+            <li><a href="" data-bs-toggle="offcanvas" data-bs-target="#sbar">CART</a></li>
             <li>
                 <button class="bg-success" id="signup" data-bs-toggle="modal" data-bs-target="#signupModal"><a href="#">SIGN UP</a></button>
             </li>
@@ -50,7 +50,25 @@
         </label>
     </nav>
     <!-- /NAVBAR -->
+    <!-- Sidebar -->
+    
+    <div class="offcanvas offcanvas-end" id="sbar">
+        <div class="offcanvas-header">
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+          
+        </div>
+        <div class="offcanvas-body sidecart">
 
+
+        </div>
+        <div class="offcanvas-footer justify-content-center text-center">
+            <div >
+                
+            </div>
+            <a href="cart.html" class="btn btn-outline-dark my-4" id="cartbtn">Go to Cart</a>
+        </div>
+    </div>
+    <!-- /Sidebar -->
     <!-- MODAL -->
     <div class="modal" id="signupModal">
         <div class="modal-dialog">
