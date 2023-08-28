@@ -210,69 +210,132 @@
             "price": 426.04
         }
       ],
-      "figurines": [
+      "sticker": [
         {
-            "id": "chmanfig",
-            "prodName": "Chainsaw Man Figurine",
-            "photo1": "img/figurines/figchman.webp",
-            "photo2": "img/figurines/figchman1.webp",
-            "price": 7225.81
+            "id": "aisticker",
+            "prodName": "Ai Yoshino Motion Sticker",
+            "photo1": "img/stickers/ai.webp",
+            "photo2": "img/stickers/ai1.webp",
+            "photo3": "img/stickers/ai2.webp",
+            "video": "img/stickers/aivid.mp4",
+            "price": 355.03
         },
         {
-            "id": "remfig",
-            "prodName": "Rem Figurine",
-            "photo1": "img/figurines/figrem.webp",
-            "photo2": "img/figurines/figrem1.webp",
-            "price": 6193.85
+            "id": "akisticker",
+            "prodName": "Aki Hayakawa Motion Sticker",
+            "photo1": "img/stickers/aki.webp",
+            "photo2": "img/stickers/aki1.webp",
+            "photo3": "img/stickers/aki2.webp",
+            "video": "img/stickers/akivid.mp4",
+            "price": 355.03
         },
         {
-            "id": "lawfig",
-            "prodName": "Trafalgar Law Figurine",
-            "photo1": "img/figurines/figlaw.jpg",
-            "photo2": "img/figurines/figlaw1.jpg",
-            "price": 5343.85
+            "id": "getosticker",
+            "prodName": "Geto Suguru Motion Sticker",
+            "photo1": "img/stickers/geto.webp",
+            "photo2": "img/stickers/geto1.webp",
+            "photo3": "img/stickers/geto2.webp",
+            "video": "img/stickers/getovid.mp4",
+            "price": 355.03
         },
         {
-            "id": "luffyfig",
-            "prodName": "Monkey D. Luffy Figurine",
-            "photo1": "img/figurines/figluffy.webp",
-            "photo2": "img/figurines/figluffy1.webp",
-            "price": 7793.25
+            "id": "gojosticker",
+            "prodName": "Gojo Satoru Motion Sticker",
+            "photo1": "img/stickers/gojo.webp",
+            "photo2": "img/stickers/gojo1.webp",
+            "photo3": "img/stickers/gojo2.webp",
+            "video": "img/stickers/gojovid.mp4",
+            "price": 355.03
         },
         {
-            "id": "rammaidfig",
-            "prodName": "Maid Outfit Ram Figurine",
-            "photo1": "img/figurines/figmaidram.webp",
-            "photo2": "img/figurines/figmaidram1.webp",
-            "price": 2580.50
+            "id": "kanaosticker",
+            "prodName": "Kanao Tsuyuri Motion Sticker",
+            "photo1": "img/stickers/kanao.webp",
+            "photo2": "img/stickers/kanao1.webp",
+            "photo3": "img/stickers/kanao2.webp",
+            "video": "img/stickers/kanaovid.mp4",
+            "price": 355.03
         },
         {
-            "id": "remmaidfig",
-            "prodName": "Maid Outfit Rem Figurine",
-            "photo1": "img/figurines/figmaidrem.webp",
-            "photo2": "img/figurines/figmaidrem1.webp",
-            "price": 3580.50
+            "id": "lawsticker",
+            "prodName": "Trafalgaw Law Motion Sticker",
+            "photo1": "img/stickers/law.jpg",
+            "photo2": "img/stickers/law1.jpg",
+            "photo3": "img/stickers/law2.jpg",
+            "video": "img/stickers/lawvid.mp4",
+            "price": 355.03
         },
         {
-            "id": "powerfig",
-            "prodName": "Power Figurine",
-            "photo1": "img/figurines/figpower.webp",
-            "photo2": "img/figurines/figpower1.webp",
-            "price": 4113.85
+            "id": "megumisticker",
+            "prodName": "Megumi Fushigiro Motion Sticker",
+            "photo1": "img/stickers/megumi.jpg",
+            "photo2": "img/stickers/megumi1.jpg",
+            "photo3": "img/stickers/megumi2.jpg",
+            "video": "img/stickers/megumivid.mp4",
+            "price": 355.03
         },
         {
-            "id": "rengokufig",
-            "prodName": "Kyojuro Rengoku Figurine",
-            "photo1": "img/figurines/figrengoku.jpg",
-            "photo2": "img/figurines/figrengoku1.jpg",
-            "price": 2780.50
+            "id": "memsticker",
+            "prodName": "Mem Motion Sticker",
+            "photo1": "img/stickers/mem.jpg",
+            "photo2": "img/stickers/mem1.jpg",
+            "photo3": "img/stickers/mem2.jpg",
+            "video": "img/stickers/memvid.mp4",
+            "price": 355.03
         },
         {
-            "id": "saberfig",
-            "prodName": "Artoria Pendragon (Saber) Figurine",
-            "photo1": "img/figurines/figsaber.webp",
-            "photo2": "img/figurines/figsaber1.webp",
-            "price": 7035.00
+            "id": "mitsuristicker",
+            "prodName": "Mitsuri Kanroji Motion Sticker",
+            "photo1": "img/stickers/mitsuri.jpg",
+            "photo2": "img/stickers/mitsuri1.jpg",
+            "photo3": "img/stickers/mitsuri2.jpg",
+            "video": "img/stickers/mitsurivid.mp4",
+            "price": 355.03
+        },
+        {
+            "id": "muichirosticker",
+            "prodName": "Muichiro Tokito Motion Sticker",
+            "photo1": "img/stickers/muichiro.jpg",
+            "photo2": "img/stickers/muichiro1.jpg",
+            "photo3": "img/stickers/muichiro2.jpg",
+            "video": "img/stickers/muichirovid.mp4",
+            "price": 355.03
+        },
+        {
+            "id": "namisticker",
+            "prodName": "Nami Motion Sticker",
+            "photo1": "img/stickers/nami.jpg",
+            "photo2": "img/stickers/nami1.jpg",
+            "photo3": "img/stickers/nami2.jpg",
+            "video": "img/stickers/namivid.mp4",
+            "price": 355.03
+        },
+        {
+            "id": "powersticker",
+            "prodName": "Power Motion Sticker",
+            "photo1": "img/stickers/power.jpg",
+            "photo2": "img/stickers/power1.jpg",
+            "photo3": "img/stickers/power2.jpg",
+            "video": "img/stickers/powervid.mp4",
+            "price": 355.03
+        },
+        {
+            "id": "robinsticker",
+            "prodName": "Nico Robin Motion Sticker",
+            "photo1": "img/stickers/robin.jpg",
+            "photo2": "img/stickers/robin1.jpg",
+            "photo3": "img/stickers/robin2.jpg",
+            "video": "img/stickers/robinvid.mp4",
+            "price": 355.03
+        },
+        {
+            "id": "rubysticker",
+            "prodName": "Ruby Yoshino Motion Sticker",
+            "photo1": "img/stickers/ruby.jpg",
+            "photo2": "img/stickers/ruby1.jpg",
+            "photo3": "img/stickers/ruby2.jpg",
+            "video": "img/stickers/rubyvid.mp4",
+            "price": 355.03
         }
       ],
       "tshirts": [
