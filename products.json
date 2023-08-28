@@ -7,7 +7,7 @@
           "photo1": "img/keychains/ai.jpg",
           "photo2": "img/keychains/ai1.jpg",
           "photo3": "img/keychains/ai2.jpg",
-          "price": "426.04"
+          "price": 426.04
         },
         {
             "id": "akazakeychain",
@@ -15,7 +15,7 @@
             "photo1": "img/keychains/akaza.jpg",
             "photo2": "img/keychains/akaza1.jpg",
             "photo3": "img/keychains/akaza2.jpg",
-            "price": "426.04"
+            "price": 426.04
         },
         {
             "id": "akikeychain",
@@ -23,7 +23,7 @@
             "photo1": "img/keychains/aki.jpg",
             "photo2": "img/keychains/aki1.jpg",
             "photo3": "img/keychains/aki2.jpg",
-            "price": "426.04"
+            "price": 426.04
         },
         {
             "id": "gojokeychain",
@@ -31,7 +31,7 @@
             "photo1": "img/keychains/gojo.jpg",
             "photo2": "img/keychains/gojo1.jpg",
             "photo3": "img/keychains/gojo2.jpg",
-            "price": "426.04"
+            "price": 426.04
         },
         {
             "id": "killuakeychain",
@@ -39,7 +39,7 @@
             "photo1": "img/keychains/killua.jpg",
             "photo2": "img/keychains/killua1.jpg",
             "photo3": "img/keychains/killua2.jpg",
-            "price": "426.04"
+            "price": 426.04
         },
         {
             "id": "robinkeychain",
@@ -47,7 +47,7 @@
             "photo1": "img/keychains/robin.jpg",
             "photo2": "img/keychains/robin1.jpg",
             "photo3": "img/keychains/robin2.jpg",
-            "price": "426.04"
+            "price": 426.04
         },
         {
             "id": "yorkeychain",
@@ -55,7 +55,7 @@
             "photo1": "img/keychains/yor.jpg",
             "photo2": "img/keychains/yor1.jpg",
             "photo3": "img/keychains/yor2.jpg",
-            "price": "426.04"
+            "price": 426.04
         },
         {
             "id": "zenitsukeychain",
@@ -63,7 +63,7 @@
             "photo1": "img/keychains/zenitsu.jpg",
             "photo2": "img/keychains/zenitsu1.jpg",
             "photo3": "img/keychains/zenitsu2.jpg",
-            "price": "426.04"
+            "price": 426.04
         },
         {
             "id": "zorokeychain",
@@ -71,7 +71,7 @@
             "photo1": "img/keychains/zoro.jpg",
             "photo2": "img/keychains/zoro1.jpg",
             "photo3": "img/keychains/zoro2.jpg",
-            "price": "426.04"
+            "price": 426.04
         }
       ],
       "figurines": [
@@ -80,63 +80,63 @@
             "prodName": "Chainsaw Man Figurine",
             "photo1": "img/figurines/figchman.webp",
             "photo2": "img/figurines/figchman1.webp",
-            "price": "7,225.81"
+            "price": 7225.81
         },
         {
             "id": "remfig",
             "prodName": "Rem Figurine",
             "photo1": "img/figurines/figrem.webp",
             "photo2": "img/figurines/figrem1.webp",
-            "price": "6,193.85"
+            "price": 6193.85
         },
         {
             "id": "lawfig",
             "prodName": "Trafalgar Law Figurine",
             "photo1": "img/figurines/figlaw.jpg",
             "photo2": "img/figurines/figlaw1.jpg",
-            "price": "5,343.85"
+            "price": 5343.85
         },
         {
             "id": "luffyfig",
             "prodName": "Monkey D. Luffy Figurine",
             "photo1": "img/figurines/figluffy.webp",
             "photo2": "img/figurines/figluffy1.webp",
-            "price": "7,793.25"
+            "price": 7793.25
         },
         {
             "id": "rammaidfig",
             "prodName": "Maid Outfit Ram Figurine",
             "photo1": "img/figurines/figmaidram.webp",
             "photo2": "img/figurines/figmaidram1.webp",
-            "price": "2,580.50"
+            "price": 2580.50
         },
         {
             "id": "remmaidfig",
             "prodName": "Maid Outfit Rem Figurine",
             "photo1": "img/figurines/figmaidrem.webp",
             "photo2": "img/figurines/figmaidrem1.webp",
-            "price": "3,580.50"
+            "price": 3580.50
         },
         {
             "id": "powerfig",
             "prodName": "Power Figurine",
             "photo1": "img/figurines/figpower.webp",
             "photo2": "img/figurines/figpower1.webp",
-            "price": "4,113.85"
+            "price": 4113.85
         },
         {
             "id": "rengokufig",
             "prodName": "Kyojuro Rengoku Figurine",
             "photo1": "img/figurines/figrengoku.jpg",
             "photo2": "img/figurines/figrengoku1.jpg",
-            "price": "2,780.50"
+            "price": 2780.50
         },
         {
             "id": "saberfig",
             "prodName": "Artoria Pendragon (Saber) Figurine",
             "photo1": "img/figurines/figsaber.webp",
             "photo2": "img/figurines/figsaber1.webp",
-            "price": "7,035.00"
+            "price": 7035.00
         }
       ],
       "tshirts": [
@@ -145,47 +145,47 @@
             "prodName": "SpyxFamily Anya Expressions",
             "photo1": "img/tshirts/anya1.jpg",
             "photo2": "img/tshirts/anya2.jpg",
-            "price": "349.00"
+            "price": 349.00
         },
         {   
             "id": "colossalshirt",
             "prodName": "AOT - Colossal Titan T-Shirt",
             "photo1": "img/tshirts/colossal1.jpg",
             "photo2": "img/tshirts/colossal2.jpg",
-            "price": "360.05"
+            "price": 360.05
         },
         {   
             "id": "gonshirt",
             "prodName": "HxH- Gon T-Shirt",
             "photo1": "img/tshirts/gon1.jpg",
             "photo2": "img/tshirts/gon2.jpg",
-            "price": "299.50"
+            "price": 299.50
         },
         {   
             "id": "kanekiShirt",
             "prodName": "Tokyo Ghoul - Kaneki T-Shirt",
             "photo1": "img/tshirts/kaneki.jpg",
-            "price": "339.40"
+            "price": 339.40
         },
         {   
             "id": "kanekirizeShirt",
             "prodName": "Tokyo Ghoul - Kaneki & Rize T-Shirt",
             "photo1": "img/tshirts/kanekirize.jpg",
-            "price": "339.40"
+            "price": 339.40
         },
         {   
             "id": "makimaShirt",
             "prodName": "Chainsaw Man - Makima T-Shirt",
             "photo1": "img/tshirts/makima1.jpg",
             "photo2": "img/tshirts/makima 2.jpg",
-            "price": "389.60"
+            "price": 389.60
         },
         {   
             "id": "powerShirt",
             "prodName": "Chainsaw Man - Power T-Shirt",
             "photo1": "img/tshirts/power1.jpg",
             "photo2": "img/tshirts/power2.jpg",
-            "price": "399.00"
+            "price": 399.00
         }
       ],
       "hoodies": [
@@ -197,51 +197,51 @@
             "photo3": "img/hoodies/darlingfranx2.jpg",
             "photo4": "img/hoodies/darlingfranx4.jpg",
             "photo5": "img/hoodies/darlingfranx5.jpg",
-            "price": "549.00"
+            "price": 549.00
         },
         {   
             "id": "gokuHoodies",
             "prodName": "DragonBall - Goku Hoddie",
             "photo1": "img/hoodies/goku1hoodie.jpg",
             "photo2": "img/hoodies/goku2hoodie.jpg",
-            "price": "499.00"
+            "price": 499.00
         },
         {   
             "id": "gonHoodie",
             "prodName": "HxH - Gon Hoodie",
             "photo1": "img/hoodies/gonhoodie.jpg",
-            "price": "450.00"
+            "price": 450.00
         },
         {   
             "id": "jjkHoodie",
             "prodName": "JJK - Kanji Logo Hoodie",
             "photo1": "img/hoodies/jjk0.jpg",
             "photo2": "img/hoodies/jjk1.jpg",
-            "price": "449.50"
+            "price": 449.50
         },
         {   
             "id": "narutoHoodie",
             "prodName": "Naruto Shippuden - Shadow Clones Hoodie",
             "photo1": "img/hoodies/naruto.jpg",
-            "price": "450.00"
+            "price": 450.00
         },
         {   
             "id": "narutoHoodie1",
             "prodName": "Naruto Shippuden - Naruto Kanji Hoodie",
             "photo1": "img/hoodies/naruto2hoodie.jpg",
-            "price": "399.00"
+            "price": 399.00
         },
         {   
             "id": "neongeneisHoodie",
             "prodName": "Neon Genesis - Asuka Shikinami",
             "photo1": "img/hoodies/neongenesishoodie.jpg",
-            "price": "399.00"
+            "price": 399.00
         },
         {   
             "id": "tokyoghoulHoodie",
             "prodName": "Tokyo Ghoul - Kanji Kaneki Mask",
             "photo1": "img/hoodies/tokyoghoulhoodie.jpg",
-            "price": "399.00"
+            "price": 399.00
         },
         {   
             "id": "zerotwoSweatShirt",
@@ -249,7 +249,7 @@
             "photo1": "img/hoodies/zeroTwoSweatShirt0.jpg",
             "photo2": "img/hoodies/zeroTwoSweatShirt1.jpg",
             "photo3": "img/hoodies/zeroTwoSweatShirt2/jpg",
-            "price": "399.00"
+            "price": 399.00
         }
       ],
       "mousepads": [
@@ -258,119 +258,119 @@
             "prodName": "Chainsaw Man - Chainsaw Chicks Mousepad",
             "photo1": "img/mousepad/ChainsawChicks.webp",
             "photo2": "img/mousepad/mousepad_sizes.jpg",
-            "price": "250.00"
+            "price": 250.00
         },
         {   
             "id": "chainsawSilhouettesMousepad",
             "prodName": "Chainsaw Man - Chainsaw Silhouettes Mousepad",
             "photo1": "img/mousepad/ChainsawSilhouettes.webp",
             "photo2": "img/mousepad/mousepad_sizes.jpg",
-            "price": "250.00"
+            "price": 250.00
         },
         {   
             "id": "criticalChainsawMousepad",
             "prodName": "Chainsaw Man - Critical Chainsaw Mousepad",
             "photo1": "img/mousepad/CriticalChainsaw.webp",
             "photo2": "img/mousepad/mousepad_sizes.jpg",
-            "price": "250.00"
+            "price": 250.00
         },
         {   
             "id": "giyuMousepad",
             "prodName": "Demon Slayer - Giyu Tomioka Mousepad",
             "photo1": "img/mousepad/GiyuDS.jpg",
             "photo2": "img/mousepad/mousepad_sizes.jpg",
-            "price": "450.00"
+            "price": 450.00
         },
         {   
             "id": "mhaHeroVsVillanMousepad",
             "prodName": "My Hero Academia - Hero Vs Villan Mousepad",
             "photo1": "img/mousepad/HeroVsVillanMHA.jpg",
             "photo2": "img/mousepad/mousepad_sizes.jpg",
-            "price": "250.00"
+            "price": 250.00
         },
         {   
             "id": "inosukeMousepad",
             "prodName": "Demon Slayer - Inosuke Mousepad",
             "photo1": "img/mousepad/InosukeDS.jpg",
             "photo2": "img/mousepad/mousepad_sizes.jpg",
-            "price": "250.00"
+            "price": 250.00
         },
         {   
             "id": "lustofpowerMousepad",
             "prodName": "Chainsaw Man - Lust of Power Mousepad",
             "photo1": "img/mousepad/LustofPower.webp",
             "photo2": "img/mousepad/mousepad_sizes.jpg",
-            "price": "250.00"
+            "price": 250.00
         },
         {   
             "id": "onepieceMousepad",
             "prodName": "One Piece - Boat Mousepad",
             "photo1": "img/mousepad/OnePeace.jpg",
             "photo2": "img/mousepad/mousepad_sizes.jpg",
-            "price": "250.00"
+            "price": 250.00
         },
         {   
             "id": "onepieceCharsMousepad",
             "prodName": "One Piece - Characters Mousepad",
             "photo1": "img/mousepad/OnePeaceChars.jpg",
             "photo2": "img/mousepad/mousepad_sizes.jpg",
-            "price": "250.00"
+            "price": 250.00
         },
         {   
             "id": "onepeiceLuffyMousepad",
             "prodName": "One Piece - Luffy Mousepad",
             "photo1": "img/mousepad/OnePeaceLuffy.jpg",
             "photo2": "img/mousepad/mousepad_sizes.jpg",
-            "price": "250.00"
+            "price": 250.00
         },
         {   
             "id": "onepieceNewWorldMousepad",
             "prodName": "One Piece - New World Mousepad",
             "photo1": "img/mousepad/OnePeaceNewWorld.jpg",
             "photo2": "img/mousepad/mousepad_sizes.jpg",
-            "price": "250.00"
+            "price": 250.00
         },
         {   
             "id": "onepieceZoroMousepad",
             "prodName": "One Piece - Zoro Mousepad",
             "photo1": "img/mousepad/OnePeaceZoro.jpg",
             "photo2": "img/mousepad/mousepad_sizes.jpg",
-            "price": "250.00"
+            "price": 250.00
         },
         {   
             "id": "pochitaLoveMousepad",
             "prodName": "Chainsaw Man - Pochita Love Mousepad",
             "photo1": "img/mousepad/PochitaLove.webp",
             "photo2": "img/mousepad/mousepad_sizes.jpg",
-            "price": "250.00"
+            "price": 250.00
         },
         {   
             "id": "powerMousepad",
             "prodName": "Chainsaw Man - Power Mousepad",
             "photo1": "img/mousepad/Power.webp",
             "photo2": "img/mousepad/mousepad_sizes.jpg",
-            "price": "250.00"
+            "price": 250.00
         },
         {   
             "id": "rengokuDSMousepad",
             "prodName": "Demon Slayer - Rengoku Mousepad",
             "photo1": "img/mousepad/RengokuDS.jpg",
             "photo2": "img/mousepad/mousepad_sizes.jpg",
-            "price": "250.00"
+            "price": 250.00
         },
         {   
             "id": "shinobuDSMousepad",
             "prodName": "Demon Slayer - Shinobu Mousepad",
             "photo1": "img/mousepad/ShinobuDS.jpg",
             "photo2": "img/mousepad/mousepad_sizes.jpg",
-            "price": "250.00"
+            "price": 250.00
         },
         {   
             "id": "shotoMHAMousepad",
             "prodName": "My Hero Academia - Shoto Mousepad",
             "photo1": "img/mousepad/ShotoMHA.jpg",
             "photo2": "img/mousepad/mousepad_sizes.jpg",
-            "price": "250.00"
+            "price": 250.00
         },
         {   
             "id": "siblingsDSMousepad",
@@ -378,14 +378,14 @@
             "photo1": "img/mousepad/SiblingsDS.jpg",
             "photo2": "img/mousepad/Siblings1DS.jpg",
             "photo3": "img/mousepad/mousepad_sizes.jpg",
-            "price": "250.00"
+            "price": 250.00
         },
         {   
             "id": "zenitsuDSMousepad",
             "prodName": "Demon Slayer - Zenitsu Mousepad",
             "photo1": "img/mousepad/ZenitsuDS.jpg",
             "photo2": "img/mousepad/mousepad_sizes.jpg",
-            "price": "250.00"
+            "price": 250.00
         }
       ]
     }
