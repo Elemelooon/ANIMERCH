@@ -47,33 +47,18 @@ function registerInformation(event){
     }
 }
     
-                // ONGOING FILTER
-// let selectBtn = document.querySelector(".select-btn"),
-//     items = document.querySelectorAll(".items");
+//FILTER FUNCTIONS
+let selectProd = document.getElementById('productselector');
 
-// selectBtn.addEventListener("click", () => {
-//     selectBtn.classList.toggle("open");
-// });
 
-// items.forEach(item => {
-//     item.addEventListener("click", () => {
-//         item.classList.toggle("checked");
-
-//         let checked = document.querySelectorAll(".checked"),
-//         btnText = document.querySelector(".btn-text");
-        
-//         if(checked && checked.length > 0){
-//             btnText.innerHTML = `${checked.length} Selected`;
-//         }else{
-//             btnText.innerHTML = `Select Product`;
-//         }
-//     })
-// });
-
-//DISPLAY ALL PRODUCTS
-document.addEventListener("DOMContentLoaded", function () {
+function filter(){
+    let selectedProd = selectProd.value;
     let prodDisplay = document.querySelector('#trial');
-
+    prodDisplay.innerHTML = "";
+    
+    if (selectedProd === 'allproducts'){
+    // prodDisplay.innerHTML = "";
+    let prodDisplay = document.querySelector('#trial');
     fetch("./products.json")
     .then((res) => res.json())
     .then((data) => {
@@ -84,7 +69,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 displayProd(product);
             });
         }
-
+    
         function displayProd(item) {
             let price = item.price.toLocaleString('en-PH', {
                 style: 'currency',
@@ -106,12 +91,239 @@ document.addEventListener("DOMContentLoaded", function () {
         
             prodDisplay.innerHTML += display;
         }
-
+    
     })
     .catch(function (error) {
         console.error("Error fetching product data:", error);
     });
-});
+    }
+    else if (selectedProd === 'Keychains'){
+    fetch("./products.json")
+    .then((res) => res.json())
+    .then((data) => {
+        let products = data.products.keychain;
+        
+        products.forEach((product) => {
+            displayProd(product);
+        });
+    
+        function displayProd(item) {
+            let price = item.price.toLocaleString('en-PH', {
+                style: 'currency',
+                currency: 'PHP'
+            });
+            let display = `
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card h-100"> 
+                        <img src="${item.photo1}" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">${item.prodName}</h5>
+                            PHP ${price}
+                        </div>
+                        <div class="card-footer text-center">
+                            <button class="btn atc" id="addtocart" onclick="addCart('${item.prodName}', ${item.price}, '${item.photo1}')"><i class="fa-solid fa-plus"></i>Add to Cart</button>
+                        </div>
+                    </div>
+                </div>`;
+        
+            prodDisplay.innerHTML += display;
+        }
+    
+    })
+    .catch(function (error) {
+        console.error("Error fetching product data:", error);
+    });
+    
+    } else if (selectedProd === 'Figurines'){
+        fetch("./products.json")
+    .then((res) => res.json())
+    .then((data) => {
+        let products = data.products.figurines;
+        
+        products.forEach((product) => {
+            displayProd(product);
+        });
+    
+        function displayProd(item) {
+            let price = item.price.toLocaleString('en-PH', {
+                style: 'currency',
+                currency: 'PHP'
+            });
+            let display = `
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card h-100"> 
+                        <img src="${item.photo1}" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">${item.prodName}</h5>
+                            PHP ${price}
+                        </div>
+                        <div class="card-footer text-center">
+                            <button class="btn atc" id="addtocart" onclick="addCart('${item.prodName}', ${item.price}, '${item.photo1}')"><i class="fa-solid fa-plus"></i>Add to Cart</button>
+                        </div>
+                    </div>
+                </div>`;
+        
+            prodDisplay.innerHTML += display;
+        }
+    
+    })
+    .catch(function (error) {
+        console.error("Error fetching product data:", error);
+    });
+    } else if (selectedProd === 'shirts'){
+            fetch("./products.json")
+        .then((res) => res.json())
+        .then((data) => {
+            let products = data.products.tshirts;
+            
+            products.forEach((product) => {
+                displayProd(product);
+            });
+    
+            function displayProd(item) {
+                let price = item.price.toLocaleString('en-PH', {
+                    style: 'currency',
+                    currency: 'PHP'
+                });
+                let display = `
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card h-100"> 
+                            <img src="${item.photo1}" class="card-img-top" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">${item.prodName}</h5>
+                                PHP ${price}
+                            </div>
+                            <div class="card-footer text-center">
+                                <button class="btn atc" id="addtocart" onclick="addCart('${item.prodName}', ${item.price}, '${item.photo1}')"><i class="fa-solid fa-plus"></i>Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>`;
+            
+                prodDisplay.innerHTML += display;
+            }
+    
+        })
+        .catch(function (error) {
+            console.error("Error fetching product data:", error);
+        });
+        } else if (selectedProd === 'Hoodies'){
+            fetch("./products.json")
+        .then((res) => res.json())
+        .then((data) => {
+            let products = data.products.hoodies;
+            
+            products.forEach((product) => {
+                displayProd(product);
+            });
+    
+            function displayProd(item) {
+                let price = item.price.toLocaleString('en-PH', {
+                    style: 'currency',
+                    currency: 'PHP'
+                });
+                let display = `
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card h-100"> 
+                            <img src="${item.photo1}" class="card-img-top" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">${item.prodName}</h5>
+                                PHP ${price}
+                            </div>
+                            <div class="card-footer text-center">
+                                <button class="btn atc" id="addtocart" onclick="addCart('${item.prodName}', ${item.price}, '${item.photo1}')"><i class="fa-solid fa-plus"></i>Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>`;
+            
+                prodDisplay.innerHTML += display;
+            }
+    
+        })
+        .catch(function (error) {
+            console.error("Error fetching product data:", error);
+        });
+        } else if (selectedProd === 'Mousepads'){
+            fetch("./products.json")
+        .then((res) => res.json())
+        .then((data) => {
+            let products = data.products.mousepads;
+            
+            products.forEach((product) => {
+                displayProd(product);
+            });
+    
+            function displayProd(item) {
+                let price = item.price.toLocaleString('en-PH', {
+                    style: 'currency',
+                    currency: 'PHP'
+                });
+                let display = `
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card h-100"> 
+                            <img src="${item.photo1}" class="card-img-top" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">${item.prodName}</h5>
+                                PHP ${price}
+                            </div>
+                            <div class="card-footer text-center">
+                                <button class="btn atc" id="addtocart" onclick="addCart('${item.prodName}', ${item.price}, '${item.photo1}')"><i class="fa-solid fa-plus"></i>Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>`;
+            
+                prodDisplay.innerHTML += display;
+            }
+    
+        })
+        .catch(function (error) {
+            console.error("Error fetching product data:", error);
+        });
+        }
+    }
+filter();
+
+//DISPLAY ALL PRODUCTS
+// document.addEventListener("DOMContentLoaded", function () {
+//     let prodDisplay = document.querySelector('#trial');
+
+//     fetch("./products.json")
+//     .then((res) => res.json())
+//     .then((data) => {
+//         const allProducts = data.products;
+        
+//         for (const category in allProducts) {
+//             allProducts[category].forEach((product) => {
+//                 displayProd(product);
+//             });
+//         }
+
+//         function displayProd(item) {
+//             let price = item.price.toLocaleString('en-PH', {
+//                 style: 'currency',
+//                 currency: 'PHP'
+//             });
+//             let display = `
+//                 <div class="col-12 col-md-6 col-lg-3">
+//                     <div class="card h-100"> 
+//                         <img src="${item.photo1}" class="card-img-top" alt="">
+//                         <div class="card-body">
+//                             <h5 class="card-title">${item.prodName}</h5>
+//                             PHP ${price}
+//                         </div>
+//                         <div class="card-footer text-center">
+//                             <button class="btn atc" id="addtocart" onclick="addCart('${item.prodName}', ${item.price}, '${item.photo1}')"><i class="fa-solid fa-plus"></i>Add to Cart</button>
+//                         </div>
+//                     </div>
+//                 </div>`;
+        
+//             prodDisplay.innerHTML += display;
+//         }
+
+//     })
+//     .catch(function (error) {
+//         console.error("Error fetching product data:", error);
+//     });
+// });
 
 //CART
 
