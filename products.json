@@ -72,6 +72,142 @@
             "photo2": "img/keychains/zoro1.jpg",
             "photo3": "img/keychains/zoro2.jpg",
             "price": 426.04
+        },
+        {
+            "id": "acekeychain",
+            "prodName": "Ace Embroidered Jet Tag Keychain",
+            "photo1": "img/keychains/ace.webp",
+            "photo2": "img/keychains/ace1.webp",
+            "photo3": "img/keychains/ace2.webp",
+            "price": 426.04
+        },
+        {
+            "id": "domakeychain",
+            "prodName": "Doma Embroidered Jet Tag Keychain",
+            "photo1": "img/keychains/doma.webp",
+            "photo2": "img/keychains/doma1.webp",
+            "photo3": "img/keychains/doma2.webp",
+            "price": 426.04
+        },
+        {
+            "id": "hinatakeychain",
+            "prodName": "Hinata Hyuga Embroidered Jet Tag Keychain",
+            "photo1": "img/keychains/hinata.webp",
+            "photo2": "img/keychains/hinata1.webp",
+            "photo3": "img/keychains/hinata2.webp",
+            "price": 426.04
+        },
+        {
+            "id": "hisokakeychain",
+            "prodName": "Hisoka Embroidered Jet Tag Keychain",
+            "photo1": "img/keychains/hisoka.webp",
+            "photo2": "img/keychains/hisoka1.webp",
+            "photo3": "img/keychains/hisoka2.webp",
+            "price": 426.04
+        },
+        {
+            "id": "inosukekeychain",
+            "prodName": "Inosuke Hashibira Embroidered Jet Tag Keychain",
+            "photo1": "img/keychains/inosuke.webp",
+            "photo2": "img/keychains/inosuke1.webp",
+            "photo3": "img/keychains/inosuke2.webp",
+            "price": 426.04
+        },
+        {
+            "id": "itachikeychain",
+            "prodName": "Itachi Uchiha Embroidered Jet Tag Keychain",
+            "photo1": "img/keychains/itachi.webp",
+            "photo2": "img/keychains/itachi1.webp",
+            "photo3": "img/keychains/itachi2.webp",
+            "price": 426.04
+        },
+        {
+            "id": "kurapikakeychain",
+            "prodName": "Kurapika Embroidered Jet Tag Keychain",
+            "photo1": "img/keychains/kurapika.webp",
+            "photo2": "img/keychains/kurapika1.webp",
+            "photo3": "img/keychains/kurapika2.webp",
+            "price": 426.04
+        },
+        {
+            "id": "luffykeychain",
+            "prodName": "Luffy Embroidered Jet Tag Keychain",
+            "photo1": "img/keychains/luffy.webp",
+            "photo2": "img/keychains/luffy1.webp",
+            "photo3": "img/keychains/luffy2.webp",
+            "price": 426.04
+        },
+        {
+            "id": "anyakeychain",
+            "prodName": "Anya Forger Embroidered Jet Tag Keychain",
+            "photo1": "img/keychains/anya.jpg",
+            "photo2": "img/keychains/anya1.jpg",
+            "photo3": "img/keychains/anya2.jpg",
+            "price": 426.04
+        },
+        {
+            "id": "nezukokeychain",
+            "prodName": "Nezuko Kamado Embroidered Jet Tag Keychain",
+            "photo1": "img/keychains/nezuko.jpg",
+            "photo2": "img/keychains/nezuko1.jpg",
+            "photo3": "img/keychains/nezuko2.jpg",
+            "price": 426.04
+        },
+        {
+            "id": "makimakeychain",
+            "prodName": "Makima Embroidered Jet Tag Keychain",
+            "photo1": "img/keychains/makima.webp",
+            "photo2": "img/keychains/makima1.webp",
+            "photo3": "img/keychains/makima2.webp",
+            "price": 426.04
+        },
+        {
+            "id": "mitsurikeychain",
+            "prodName": "Mitsuri Kanroji Embroidered Jet Tag Keychain",
+            "photo1": "img/keychains/mitsuri.webp",
+            "photo2": "img/keychains/mitsuri1.webp",
+            "photo3": "img/keychains/mitsuri2.webp",
+            "price": 426.04
+        },
+        {
+            "id": "muichirokeychain",
+            "prodName": "Muichiro Tokito Embroidered Jet Tag Keychain",
+            "photo1": "img/keychains/muichiro.webp",
+            "photo2": "img/keychains/muichiro1.webp",
+            "photo3": "img/keychains/muichiro2.webp",
+            "price": 426.04
+        },
+        {
+            "id": "narutokeychain",
+            "prodName": "Naruto Uzumaki Embroidered Jet Tag Keychain",
+            "photo1": "img/keychains/naruto.webp",
+            "photo2": "img/keychains/naruto1.webp",
+            "photo3": "img/keychains/naruto2.webp",
+            "price": 426.04
+        },
+        {
+            "id": "narutosealkeychain",
+            "prodName": "Seal Embroidered Jet Tag Keychain",
+            "photo1": "img/keychains/narutoseal.webp",
+            "photo2": "img/keychains/narutoseal1.webp",
+            "photo3": "img/keychains/narutoseal2.webp",
+            "price": 426.04
+        },
+        {
+            "id": "obitokeychain",
+            "prodName": "Obito Uchiha Embroidered Jet Tag Keychain",
+            "photo1": "img/keychains/obito.webp",
+            "photo2": "img/keychains/obito1.webp",
+            "photo3": "img/keychains/obito2.webp",
+            "price": 426.04
+        },
+        {
+            "id": "shinobukeychain",
+            "prodName": "Shinobu Kocho Embroidered Jet Tag Keychain",
+            "photo1": "img/keychains/shinobu.webp",
+            "photo2": "img/keychains/shinobu1.webp",
+            "photo3": "img/keychains/shinobu2.webp",
+            "price": 426.04
         }
       ],
       "figurines": [
