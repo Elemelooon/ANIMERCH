@@ -10,18 +10,19 @@ function displayCart(){
                 style: 'currency',
                 currency: 'PHP'
             });
-            showItems = showItems +
+            showItems = 
             `<div class="cartitem" id="cartitem">
             <img src=${items.pImg} id="itemimage">
             <button onclick='remove(${index})' class="btn-close text-white" id="removebtn"></button>
             <h3 id="itemname">${items.pName}</h3>
             <p id="itemprice"> ${price}</p>
             <hr>
-            </div>`;
+            </div>` + showItems ;
+
             totalPrice += items.pPrice;
         }
     );
-    let finalPrice = totalPrice.toLocaleString('en-PH', {
+    let finalPrice = Number(totalPrice).toLocaleString('en-PH', {
         style: 'currency',
         currency: 'PHP'
         });

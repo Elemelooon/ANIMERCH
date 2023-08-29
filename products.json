@@ -286,18 +286,18 @@
         {
             "id": "mitsuristicker",
             "prodName": "Mitsuri Kanroji Motion Sticker",
-            "photo1": "img/stickers/mitsuri.jpg",
-            "photo2": "img/stickers/mitsuri1.jpg",
-            "photo3": "img/stickers/mitsuri2.jpg",
+            "photo1": "img/stickers/mitsuri.webp",
+            "photo2": "img/stickers/mitsuri1.webp",
+            "photo3": "img/stickers/mitsuri2.webp",
             "video": "img/stickers/mitsurivid.mp4",
             "price": 355.03
         },
         {
             "id": "muichirosticker",
             "prodName": "Muichiro Tokito Motion Sticker",
-            "photo1": "img/stickers/muichiro.jpg",
-            "photo2": "img/stickers/muichiro1.jpg",
-            "photo3": "img/stickers/muichiro2.jpg",
+            "photo1": "img/stickers/muichiro.webp",
+            "photo2": "img/stickers/muichiro1.webp",
+            "photo3": "img/stickers/muichiro2.webp",
             "video": "img/stickers/muichirovid.mp4",
             "price": 355.03
         },
@@ -313,9 +313,9 @@
         {
             "id": "powersticker",
             "prodName": "Power Motion Sticker",
-            "photo1": "img/stickers/power.jpg",
-            "photo2": "img/stickers/power1.jpg",
-            "photo3": "img/stickers/power2.jpg",
+            "photo1": "img/stickers/power.webp",
+            "photo2": "img/stickers/power1.webp",
+            "photo3": "img/stickers/power2.webp",
             "video": "img/stickers/powervid.mp4",
             "price": 355.03
         },
