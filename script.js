@@ -134,11 +134,11 @@ function filter(){
         console.error("Error fetching product data:", error);
     });
     
-    } else if (selectedProd === 'Figurines'){
+    } else if (selectedProd === 'Stickers'){
         fetch("./products.json")
     .then((res) => res.json())
     .then((data) => {
-        let products = data.products.figurines;
+        let products = data.products.sticker;
         
         products.forEach((product) => {
             displayProd(product);
