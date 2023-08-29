@@ -9,46 +9,12 @@ body{
     /* background-color: #666; */
 }
 /* NAVIGATION BAR */
-nav{
-
-    display: flex;
-    width: 100%;
-    background-color: rgb(3, 27, 49);
-    position: relative;
-    justify-content: space-between;
-    text-align: center;
-    padding: 15px 30px;
+nav img{
+    width: 180px;
 }
-
-nav .icon{
-    font-size: 35px;
-    font-weight: 800;
-    cursor: pointer;
+.navbar-nav{
+    padding-right: 50px;
 }
-
-nav ol{
-    display: flex;
-    list-style: none;
-    margin: auto 0;
-}
-
-nav ol li{
-    margin: 0 2px;
-}
-
-nav ol li a{
-    color: #fff;
-    font-size: 20px;
-    text-decoration: none;
-    text-transform: capitalize;
-    letter-spacing: 1px;
-    padding: 5px 10px;
-}
-nav ol li:hover a{
-    background: #fff;
-    color: #0a5071;
-}
-
 nav .search-box{
     display: flex;
     margin: auto 0;
@@ -63,7 +29,8 @@ nav .search-box input{
     height: 100%;
     padding: 0 10px;
     font-size: 20px;
-    width: 350px;
+    width: 300px;
+    border-radius: 8px;
 }
 
 nav .search-box span{
@@ -75,6 +42,7 @@ nav .search-box span{
     position: relative;
     cursor: pointer;
     z-index: 1;
+    border-radius: 8px;
 }
 nav .search-box span:hover{
     color: #fff;
@@ -83,86 +51,149 @@ nav .search-box span::after{
     height: 100%;
     width: 0%;
     content: '';
-    background: #ff003c;
+    background: #3ed8b7;
     position: absolute;
     top: 0;
     left: 0;
     z-index: -1;
     transition: 0.3s;
+    border-radius: 8px;
 }
 nav .search-box span:hover::after{
     width: 100%;
 }
-nav .bar{
+
+.button-container {
+    display: flex;
+    gap: 20px;
+  }
+  .button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 19px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+
+  .sign-up {
+    background-color: #2ecc71;
+    color: white;
+  }
+
+  .login {
+    background-color: #3498db;
+    color: white;
+  }
+
+  .button:hover {
+    background-color: #333;
+    color: white;
+  }
+.navbar {
+    opacity: .7; /* visibility of the navbar */
+    background-color: #3ed8b7; /* Transparent background */
+    padding: 5px;
+    transition: background-color 0.3s ease; /* Smooth transition for background color change */
+}
+.navbar-solid {
+    opacity: 1;
+    background-color: #3ed8b7; /* Replace with your desired solid color */
+    /* Add any other styles for the navbar when it's solid-colored */
+}
+
+
+.filter{
     position: relative;
-    margin: auto;
-    display: none;
+    border-radius: 8px;
+    margin: 40px auto 30px;
+    margin-top: 200px;
 }
-nav .bar span{
-    position: absolute;
+.select-btn{
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+.select-btn .btn-text{
+    font-size: 17px;
+    font-weight: 400;
+    color: #333;
+}
+.select-btn .arrow-dwn{
+    display: flex;
+    height: 21px;
+    width: 21px;
     color: #fff;
-    font-size: 35px;
+    border-radius: 50%;
+    background-color: #6e93f7;
+    font-size: 14px;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
 }
-
-input[type="checkbox"]{
-    -webkit-appearance: none;
+.select-btn.open .arrow-dwn{
+    transform: rotate(-180deg);
+}
+.list-items{
+    position: relative;
+    margin-top: 15px;
+    border-radius: 8px;
+    padding: 16px;
+    background-color: #fff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
     display: none;
 }
-
-@media screen and (max-width: 1250px){
-    nav{
-        display: block;
-        padding: 0;
-    }
-    nav .icon{
-        display: inline-block;
-        text-align: center;
-        padding: 15px 30px;
-    }
-    nav .search-box{
-        width: 100%;
-        display: inline-flex;
-        justify-content: center;
-        margin-bottom: 15px;
-    }
-    nav .search-box input{
-        width: 90%;
-    }
-    nav ol{
-        display: flex;
-        flex-direction: column;
-        background: #fff;
-    }
-    nav ol li{
-        text-align: center;
-    }
-    nav ol li a{
-        color: #000;
-        font-size: 28px;
-        padding: 25px;
-        display: block;
-    }
-    nav .bar{
-        display: block;
-        position: absolute;
-        top: 20px;
-        right: 80px;
-        cursor: pointer;
-    }
-    nav .bar #times{
-        display: none;
-    }
-    #check:checked ~ nav .bar #times{
-        display: block;
-    }
-    #check:checked ~ nav .bar #bars{
-        display: none;
-    }
-    #check:checked ~ nav ol{
-        visibility: visible;
-    }
+.select-btn.open ~ .list-items{
+    display: block;
 }
-
+.list-items .items{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    height: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+    padding: 0 15px;
+    border-radius: 8px;
+}
+.list-items .items:hover{
+    background-color: #e7edfe;
+}
+.items .item-text{
+    font-size: 16px;
+    font-weight: 400;
+    color: #333;
+}
+.items .checkbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 16px;
+    width: 16px;
+    border-radius: 4px;
+    margin-right: 12px;
+    border: 1.5px solid #c0c0c0;
+    transition: all 0.3s ease-in-out;
+}
+.items.checked .checkbox{
+    background-color: #4070f4;
+    border-color: #4070f4;
+}
+.checkbox .check-icon{
+    color: #fff;
+    font-size: 11px;
+    transform: scale(0);
+    transition: all 0.3s ease-in-out;
+}
+.items.checked .check-icon{
+    transform: scale(1);
+}
 /* NAVIGATION BAR */
 /* MODAL */
 .intro{
