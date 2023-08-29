@@ -2,394 +2,441 @@
 "products": {
      "keychain": [
         {
-          "id": "aikeychain",
+          "id": "111",
           "prodName": "Ai Yoshino Embroidered Jet Tag Keychain",
           "photo1": "img/keychains/ai.jpg",
           "photo2": "img/keychains/ai1.jpg",
           "photo3": "img/keychains/ai2.jpg",
-          "price": 426.04
+          "price": 426.04,
+          "anime": "Oshi No Ko"
         },
         {
-            "id": "akazakeychain",
+            "id": "112",
             "prodName": "Akaza Embroidered Jet Tag Keychain",
             "photo1": "img/keychains/akaza.jpg",
             "photo2": "img/keychains/akaza1.jpg",
             "photo3": "img/keychains/akaza2.jpg",
-            "price": 426.04
+            "price": 426.04,
+            "anime": "Demon Slayer"
         },
         {
-            "id": "akikeychain",
+            "id": "113",
             "prodName": "Aki Hayakawa Embroidered Jet Tag Keychain",
             "photo1": "img/keychains/aki.jpg",
             "photo2": "img/keychains/aki1.jpg",
             "photo3": "img/keychains/aki2.jpg",
-            "price": 426.04
+            "price": 426.04,
+            "anime": "Chainsaw Man"
         },
         {
-            "id": "gojokeychain",
+            "id": "114",
             "prodName": "Gojo Satoru Embroidered Jet Tag Keychain",
             "photo1": "img/keychains/gojo.jpg",
             "photo2": "img/keychains/gojo1.jpg",
             "photo3": "img/keychains/gojo2.jpg",
-            "price": 426.04
+            "price": 426.04,
+            "anime": "Jujutsu Kaisen"
         },
         {
-            "id": "killuakeychain",
+            "id": "115",
             "prodName": "Killua Zoldyck Embroidered Jet Tag Keychain",
             "photo1": "img/keychains/killua.jpg",
             "photo2": "img/keychains/killua1.jpg",
             "photo3": "img/keychains/killua2.jpg",
-            "price": 426.04
+            "price": 426.04,
+            "anime": "Hunter x Hunter"
         },
         {
-            "id": "robinkeychain",
+            "id": "116",
             "prodName": "Nico Robin Embroidered Jet Tag Keychain",
             "photo1": "img/keychains/robin.jpg",
             "photo2": "img/keychains/robin1.jpg",
             "photo3": "img/keychains/robin2.jpg",
-            "price": 426.04
+            "price": 426.04,
+            "anime": "One Piece"
         },
         {
-            "id": "yorkeychain",
+            "id": "117",
             "prodName": "Yor Forger Embroidered Jet Tag Keychain",
             "photo1": "img/keychains/yor.jpg",
             "photo2": "img/keychains/yor1.jpg",
             "photo3": "img/keychains/yor2.jpg",
-            "price": 426.04
+            "price": 426.04,
+            "anime": "Spy x Family"
         },
         {
-            "id": "zenitsukeychain",
+            "id": "118",
             "prodName": "Zenitsu Agatsuma Embroidered Jet Tag Keychain",
             "photo1": "img/keychains/zenitsu.jpg",
             "photo2": "img/keychains/zenitsu1.jpg",
             "photo3": "img/keychains/zenitsu2.jpg",
-            "price": 426.04
+            "price": 426.04,
+            "anime": "Demon Slayer"
         },
         {
-            "id": "zorokeychain",
+            "id": "119",
             "prodName": "Roronoa Zoro Embroidered Jet Tag Keychain",
             "photo1": "img/keychains/zoro.jpg",
             "photo2": "img/keychains/zoro1.jpg",
             "photo3": "img/keychains/zoro2.jpg",
-            "price": 426.04
+            "price": 426.04,
+            "anime": "One Piece"
         },
         {
-            "id": "acekeychain",
+            "id": "120",
             "prodName": "Ace Embroidered Jet Tag Keychain",
             "photo1": "img/keychains/ace.webp",
             "photo2": "img/keychains/ace1.webp",
             "photo3": "img/keychains/ace2.webp",
-            "price": 426.04
+            "price": 426.04,
+            "anime": "One Piece"
         },
         {
-            "id": "domakeychain",
+            "id": "121",
             "prodName": "Doma Embroidered Jet Tag Keychain",
             "photo1": "img/keychains/doma.webp",
             "photo2": "img/keychains/doma1.webp",
             "photo3": "img/keychains/doma2.webp",
-            "price": 426.04
+            "price": 426.04,
+            "anime": "Demon Slayer"
         },
         {
-            "id": "hinatakeychain",
+            "id": "122",
             "prodName": "Hinata Hyuga Embroidered Jet Tag Keychain",
             "photo1": "img/keychains/hinata.webp",
             "photo2": "img/keychains/hinata1.webp",
             "photo3": "img/keychains/hinata2.webp",
-            "price": 426.04
+            "price": 426.04,
+            "anime": "Naruto"
         },
         {
-            "id": "hisokakeychain",
+            "id": "123",
             "prodName": "Hisoka Embroidered Jet Tag Keychain",
             "photo1": "img/keychains/hisoka.webp",
             "photo2": "img/keychains/hisoka1.webp",
             "photo3": "img/keychains/hisoka2.webp",
-            "price": 426.04
+            "price": 426.04,
+            "anime": "Hunter x Hunter"
         },
         {
-            "id": "inosukekeychain",
+            "id": "124",
             "prodName": "Inosuke Hashibira Embroidered Jet Tag Keychain",
             "photo1": "img/keychains/inosuke.webp",
             "photo2": "img/keychains/inosuke1.webp",
             "photo3": "img/keychains/inosuke2.webp",
-            "price": 426.04
+            "price": 426.04,
+            "anime": "Demon Slayer"
         },
         {
-            "id": "itachikeychain",
+            "id": "125",
             "prodName": "Itachi Uchiha Embroidered Jet Tag Keychain",
             "photo1": "img/keychains/itachi.webp",
             "photo2": "img/keychains/itachi1.webp",
             "photo3": "img/keychains/itachi2.webp",
-            "price": 426.04
+            "price": 426.04,
+            "anime": "Naruto"
         },
         {
-            "id": "kurapikakeychain",
+            "id": "126",
             "prodName": "Kurapika Embroidered Jet Tag Keychain",
             "photo1": "img/keychains/kurapika.webp",
             "photo2": "img/keychains/kurapika1.webp",
             "photo3": "img/keychains/kurapika2.webp",
-            "price": 426.04
+            "price": 426.04,
+            "anime": "Hunter x Hunter"
         },
         {
-            "id": "luffykeychain",
+            "id": "127",
             "prodName": "Luffy Embroidered Jet Tag Keychain",
             "photo1": "img/keychains/luffy.webp",
             "photo2": "img/keychains/luffy1.webp",
             "photo3": "img/keychains/luffy2.webp",
-            "price": 426.04
+            "price": 426.04,
+            "anime": "One Piece"
         },
         {
-            "id": "anyakeychain",
+            "id": "128",
             "prodName": "Anya Forger Embroidered Jet Tag Keychain",
             "photo1": "img/keychains/anya.jpg",
             "photo2": "img/keychains/anya1.jpg",
             "photo3": "img/keychains/anya2.jpg",
-            "price": 426.04
+            "price": 426.04,
+            "anime": "Spy x Family"
         },
         {
-            "id": "nezukokeychain",
+            "id": "129",
             "prodName": "Nezuko Kamado Embroidered Jet Tag Keychain",
             "photo1": "img/keychains/nezuko.jpg",
             "photo2": "img/keychains/nezuko1.jpg",
             "photo3": "img/keychains/nezuko2.jpg",
-            "price": 426.04
+            "price": 426.04,
+            "anime": "Demon Slayer"
         },
         {
-            "id": "makimakeychain",
+            "id": "130",
             "prodName": "Makima Embroidered Jet Tag Keychain",
             "photo1": "img/keychains/makima.webp",
             "photo2": "img/keychains/makima1.webp",
             "photo3": "img/keychains/makima2.webp",
-            "price": 426.04
+            "price": 426.04,
+            "anime": "Chainsaw Man"
         },
         {
-            "id": "mitsurikeychain",
+            "id": "131",
             "prodName": "Mitsuri Kanroji Embroidered Jet Tag Keychain",
             "photo1": "img/keychains/mitsuri.webp",
             "photo2": "img/keychains/mitsuri1.webp",
             "photo3": "img/keychains/mitsuri2.webp",
-            "price": 426.04
+            "price": 426.04,
+            "anime": "Demon Slayer"
+
         },
         {
-            "id": "muichirokeychain",
+            "id": "132",
             "prodName": "Muichiro Tokito Embroidered Jet Tag Keychain",
             "photo1": "img/keychains/muichiro.webp",
             "photo2": "img/keychains/muichiro1.webp",
             "photo3": "img/keychains/muichiro2.webp",
-            "price": 426.04
+            "price": 426.04,
+            "anime": "Demon Slayer"
         },
         {
-            "id": "narutokeychain",
+            "id": "133",
             "prodName": "Naruto Uzumaki Embroidered Jet Tag Keychain",
             "photo1": "img/keychains/naruto.webp",
             "photo2": "img/keychains/naruto1.webp",
             "photo3": "img/keychains/naruto2.webp",
-            "price": 426.04
+            "price": 426.04,
+            "anime": "Naruto"
         },
         {
-            "id": "narutosealkeychain",
+            "id": "134",
             "prodName": "Seal Embroidered Jet Tag Keychain",
             "photo1": "img/keychains/narutoseal.webp",
             "photo2": "img/keychains/narutoseal1.webp",
             "photo3": "img/keychains/narutoseal2.webp",
-            "price": 426.04
+            "price": 426.04,
+            "anime": "Naruto"
         },
         {
-            "id": "obitokeychain",
+            "id": "135",
             "prodName": "Obito Uchiha Embroidered Jet Tag Keychain",
             "photo1": "img/keychains/obito.webp",
             "photo2": "img/keychains/obito1.webp",
             "photo3": "img/keychains/obito2.webp",
-            "price": 426.04
+            "price": 426.04,
+            "anime": "Naruto"
         },
         {
-            "id": "shinobukeychain",
+            "id": "136",
             "prodName": "Shinobu Kocho Embroidered Jet Tag Keychain",
             "photo1": "img/keychains/shinobu.webp",
             "photo2": "img/keychains/shinobu1.webp",
             "photo3": "img/keychains/shinobu2.webp",
-            "price": 426.04
+            "price": 426.04,
+            "anime": "Demon Slayer"
         }
       ],
       "sticker": [
         {
-            "id": "aisticker",
+            "id": "211",
             "prodName": "Ai Yoshino Motion Sticker",
             "photo1": "img/stickers/ai.webp",
             "photo2": "img/stickers/ai1.webp",
             "photo3": "img/stickers/ai2.webp",
             "video": "img/stickers/aivid.mp4",
-            "price": 355.03
+            "price": 355.03,
+            "anime": "Oshi No Ko"
         },
         {
-            "id": "akisticker",
+            "id": "212",
             "prodName": "Aki Hayakawa Motion Sticker",
             "photo1": "img/stickers/aki.webp",
             "photo2": "img/stickers/aki1.webp",
             "photo3": "img/stickers/aki2.webp",
             "video": "img/stickers/akivid.mp4",
-            "price": 355.03
+            "price": 355.03,
+            "anime": "Chainsaw Man"
         },
         {
-            "id": "getosticker",
+            "id": "213",
             "prodName": "Geto Suguru Motion Sticker",
             "photo1": "img/stickers/geto.webp",
             "photo2": "img/stickers/geto1.webp",
             "photo3": "img/stickers/geto2.webp",
             "video": "img/stickers/getovid.mp4",
-            "price": 355.03
+            "price": 355.03,
+            "anime": "Jujutsu Kaisen"
         },
         {
-            "id": "gojosticker",
+            "id": "214",
             "prodName": "Gojo Satoru Motion Sticker",
             "photo1": "img/stickers/gojo.webp",
             "photo2": "img/stickers/gojo1.webp",
             "photo3": "img/stickers/gojo2.webp",
             "video": "img/stickers/gojovid.mp4",
-            "price": 355.03
+            "price": 355.03,
+            "anime": "Jujutsu Kaisen"
         },
         {
-            "id": "kanaosticker",
+            "id": "215",
             "prodName": "Kanao Tsuyuri Motion Sticker",
             "photo1": "img/stickers/kanao.webp",
             "photo2": "img/stickers/kanao1.webp",
             "photo3": "img/stickers/kanao2.webp",
             "video": "img/stickers/kanaovid.mp4",
-            "price": 355.03
+            "price": 355.03,
+            "anime": "Demon Slayer"
         },
         {
-            "id": "lawsticker",
+            "id": "216",
             "prodName": "Trafalgaw Law Motion Sticker",
             "photo1": "img/stickers/law.jpg",
             "photo2": "img/stickers/law1.jpg",
             "photo3": "img/stickers/law2.jpg",
             "video": "img/stickers/lawvid.mp4",
-            "price": 355.03
+            "price": 355.03,
+            "anime": "One Piece"
         },
         {
-            "id": "megumisticker",
+            "id": "217",
             "prodName": "Megumi Fushigiro Motion Sticker",
             "photo1": "img/stickers/megumi.jpg",
             "photo2": "img/stickers/megumi1.jpg",
             "photo3": "img/stickers/megumi2.jpg",
             "video": "img/stickers/megumivid.mp4",
-            "price": 355.03
+            "price": 355.03,
+            "anime": "Jujutsu Kaisen"
         },
         {
-            "id": "memsticker",
+            "id": "218",
             "prodName": "Mem Motion Sticker",
             "photo1": "img/stickers/mem.jpg",
             "photo2": "img/stickers/mem1.jpg",
             "photo3": "img/stickers/mem2.jpg",
             "video": "img/stickers/memvid.mp4",
-            "price": 355.03
+            "price": 355.03,
+            "anime": "Oshi No Ko"
         },
         {
-            "id": "mitsuristicker",
+            "id": "219",
             "prodName": "Mitsuri Kanroji Motion Sticker",
             "photo1": "img/stickers/mitsuri.webp",
             "photo2": "img/stickers/mitsuri1.webp",
             "photo3": "img/stickers/mitsuri2.webp",
             "video": "img/stickers/mitsurivid.mp4",
-            "price": 355.03
+            "price": 355.03,
+            "anime": "Demon Slayer"
         },
         {
-            "id": "muichirosticker",
+            "id": "220",
             "prodName": "Muichiro Tokito Motion Sticker",
             "photo1": "img/stickers/muichiro.webp",
             "photo2": "img/stickers/muichiro1.webp",
             "photo3": "img/stickers/muichiro2.webp",
             "video": "img/stickers/muichirovid.mp4",
-            "price": 355.03
+            "price": 355.03,
+            "anime": "Demon Slayer"
         },
         {
-            "id": "namisticker",
+            "id": "221",
             "prodName": "Nami Motion Sticker",
             "photo1": "img/stickers/nami.jpg",
             "photo2": "img/stickers/nami1.jpg",
             "photo3": "img/stickers/nami2.jpg",
             "video": "img/stickers/namivid.mp4",
-            "price": 355.03
+            "price": 355.03,
+            "anime": "One Piece"
         },
         {
-            "id": "powersticker",
+            "id": "222",
             "prodName": "Power Motion Sticker",
             "photo1": "img/stickers/power.webp",
             "photo2": "img/stickers/power1.webp",
             "photo3": "img/stickers/power2.webp",
             "video": "img/stickers/powervid.mp4",
-            "price": 355.03
+            "price": 355.03,
+            "anime": "Chainsaw Man"
         },
         {
-            "id": "robinsticker",
+            "id": "223",
             "prodName": "Nico Robin Motion Sticker",
             "photo1": "img/stickers/robin.jpg",
             "photo2": "img/stickers/robin1.jpg",
             "photo3": "img/stickers/robin2.jpg",
             "video": "img/stickers/robinvid.mp4",
-            "price": 355.03
+            "price": 355.03,
+            "anime": "One Piece"
         },
         {
-            "id": "rubysticker",
+            "id": "224",
             "prodName": "Ruby Yoshino Motion Sticker",
             "photo1": "img/stickers/ruby.jpg",
             "photo2": "img/stickers/ruby1.jpg",
             "photo3": "img/stickers/ruby2.jpg",
             "video": "img/stickers/rubyvid.mp4",
-            "price": 355.03
+            "price": 355.03,
+            "anime": "Oshi No Ko"
         }
       ],
       "tshirts": [
         {   
-            "id": "anyashirt",
+            "id": "311",
             "prodName": "SpyxFamily Anya Expressions",
             "photo1": "img/tshirts/anya1.jpg",
             "photo2": "img/tshirts/anya2.jpg",
-            "price": 349.00
+            "price": 349.00,
+            "anime": "Spy x Family"
         },
         {   
-            "id": "colossalshirt",
+            "id": "312",
             "prodName": "AOT - Colossal Titan T-Shirt",
             "photo1": "img/tshirts/colossal1.jpg",
             "photo2": "img/tshirts/colossal2.jpg",
             "price": 360.05
         },
         {   
-            "id": "gonshirt",
+            "id": "313",
             "prodName": "HxH- Gon T-Shirt",
             "photo1": "img/tshirts/gon1.jpg",
             "photo2": "img/tshirts/gon2.jpg",
-            "price": 299.50
+            "price": 299.50,
+            "anime": "Hunter x Hunter"
         },
         {   
-            "id": "kanekiShirt",
+            "id": "314",
             "prodName": "Tokyo Ghoul - Kaneki T-Shirt",
             "photo1": "img/tshirts/kaneki.jpg",
-            "price": 339.40
+            "price": 339.40,
+            "anime": "Tokyo Ghoul"
         },
         {   
-            "id": "kanekirizeShirt",
+            "id": "315",
             "prodName": "Tokyo Ghoul - Kaneki & Rize T-Shirt",
             "photo1": "img/tshirts/kanekirize.jpg",
-            "price": 339.40
+            "price": 339.40,
+            "anime": "Tokyo Ghoul"
         },
         {   
-            "id": "makimaShirt",
+            "id": "316",
             "prodName": "Chainsaw Man - Makima T-Shirt",
             "photo1": "img/tshirts/makima1.jpg",
             "photo2": "img/tshirts/makima 2.jpg",
-            "price": 389.60
+            "price": 389.60,
+            "anime": "Chainsaw Man"
         },
         {   
-            "id": "powerShirt",
+            "id": "317",
             "prodName": "Chainsaw Man - Power T-Shirt",
             "photo1": "img/tshirts/power1.jpg",
             "photo2": "img/tshirts/power2.jpg",
-            "price": 399.00
+            "price": 399.00,
+            "anime": "Chainsaw Man"
         }
       ],
       "hoodies": [
         {
-            "id": "darlingfranxxHoodies",
+            "id": "411",
             "prodName": "Darling Franxx - Logo Hoodie",
             "photo1": "img/hoodies/darlingfranx0.jpg",
             "photo2": "img/hoodies/darlingfranx1.jpg",
@@ -399,51 +446,57 @@
             "price": 549.00
         },
         {   
-            "id": "gokuHoodies",
+            "id": "412",
             "prodName": "DragonBall - Goku Hoddie",
             "photo1": "img/hoodies/goku1hoodie.jpg",
             "photo2": "img/hoodies/goku2hoodie.jpg",
-            "price": 499.00
+            "price": 499.00,
+            "anime": "Hunter x Hunter"
         },
         {   
-            "id": "gonHoodie",
+            "id": "413",
             "prodName": "HxH - Gon Hoodie",
             "photo1": "img/hoodies/gonhoodie.jpg",
-            "price": 450.00
+            "price": 450.00,
+            "anime": "Hunter x Hunter"
         },
         {   
-            "id": "jjkHoodie",
+            "id": "414",
             "prodName": "JJK - Kanji Logo Hoodie",
             "photo1": "img/hoodies/jjk0.jpg",
             "photo2": "img/hoodies/jjk1.jpg",
-            "price": 449.50
+            "price": 449.50,
+            "anime": "Jujutsu Kaisen"
         },
         {   
-            "id": "narutoHoodie",
+            "id": "415",
             "prodName": "Naruto Shippuden - Shadow Clones Hoodie",
             "photo1": "img/hoodies/naruto.jpg",
-            "price": 450.00
+            "price": 450.00,
+            "anime": "Naruto"
         },
         {   
-            "id": "narutoHoodie1",
+            "id": "416",
             "prodName": "Naruto Shippuden - Naruto Kanji Hoodie",
             "photo1": "img/hoodies/naruto2hoodie.jpg",
-            "price": 399.00
+            "price": 399.00,
+            "anime": "Naruto"
         },
         {   
-            "id": "neongeneisHoodie",
+            "id": "417",
             "prodName": "Neon Genesis - Asuka Shikinami",
             "photo1": "img/hoodies/neongenesishoodie.jpg",
             "price": 399.00
         },
         {   
-            "id": "tokyoghoulHoodie",
+            "id": "418",
             "prodName": "Tokyo Ghoul - Kanji Kaneki Mask",
             "photo1": "img/hoodies/tokyoghoulhoodie.jpg",
-            "price": 399.00
+            "price": 399.00,
+            "anime": "Tokyo Ghoul"
         },
         {   
-            "id": "zerotwoSweatShirt",
+            "id": "419",
             "prodName": "Darling Franxx - Zero Two Sweat Shirt",
             "photo1": "img/hoodies/zeroTwoSweatShirt0.jpg",
             "photo2": "img/hoodies/zeroTwoSweatShirt1.jpg",
@@ -453,138 +506,155 @@
       ],
       "mousepads": [
         {   
-            "id": "chainsawChicksMouspad",
+            "id": "511",
             "prodName": "Chainsaw Man - Chainsaw Chicks Mousepad",
             "photo1": "img/mousepad/ChainsawChicks.webp",
             "photo2": "img/mousepad/mousepad_sizes.jpg",
-            "price": 250.00
+            "price": 250.00,
+            "anime": "Chainsaw Man"
         },
         {   
-            "id": "chainsawSilhouettesMousepad",
+            "id": "512",
             "prodName": "Chainsaw Man - Chainsaw Silhouettes Mousepad",
             "photo1": "img/mousepad/ChainsawSilhouettes.webp",
             "photo2": "img/mousepad/mousepad_sizes.jpg",
-            "price": 250.00
+            "price": 250.00,
+            "anime": "Chainsaw Man"
         },
         {   
-            "id": "criticalChainsawMousepad",
+            "id": "513",
             "prodName": "Chainsaw Man - Critical Chainsaw Mousepad",
             "photo1": "img/mousepad/CriticalChainsaw.webp",
             "photo2": "img/mousepad/mousepad_sizes.jpg",
-            "price": 250.00
+            "price": 250.00,
+            "anime": "Chainsaw Man"
         },
         {   
-            "id": "giyuMousepad",
+            "id": "514",
             "prodName": "Demon Slayer - Giyu Tomioka Mousepad",
             "photo1": "img/mousepad/GiyuDS.jpg",
             "photo2": "img/mousepad/mousepad_sizes.jpg",
-            "price": 450.00
+            "price": 450.00,
+            "anime": "Demon Slayer"
         },
         {   
-            "id": "mhaHeroVsVillanMousepad",
+            "id": "515",
             "prodName": "My Hero Academia - Hero Vs Villan Mousepad",
             "photo1": "img/mousepad/HeroVsVillanMHA.jpg",
             "photo2": "img/mousepad/mousepad_sizes.jpg",
             "price": 250.00
         },
         {   
-            "id": "inosukeMousepad",
+            "id": "516",
             "prodName": "Demon Slayer - Inosuke Mousepad",
             "photo1": "img/mousepad/InosukeDS.jpg",
             "photo2": "img/mousepad/mousepad_sizes.jpg",
-            "price": 250.00
+            "price": 250.00,
+            "anime": "Demon Slayer"
         },
         {   
-            "id": "lustofpowerMousepad",
+            "id": "517",
             "prodName": "Chainsaw Man - Lust of Power Mousepad",
             "photo1": "img/mousepad/LustofPower.webp",
             "photo2": "img/mousepad/mousepad_sizes.jpg",
-            "price": 250.00
+            "price": 250.00,
+            "anime": "Chainsaw Man"
         },
         {   
-            "id": "onepieceMousepad",
+            "id": "518",
             "prodName": "One Piece - Boat Mousepad",
             "photo1": "img/mousepad/OnePeace.jpg",
             "photo2": "img/mousepad/mousepad_sizes.jpg",
-            "price": 250.00
+            "price": 250.00,
+            "anime": "One Piece"
         },
         {   
-            "id": "onepieceCharsMousepad",
+            "id": "519",
             "prodName": "One Piece - Characters Mousepad",
             "photo1": "img/mousepad/OnePeaceChars.jpg",
             "photo2": "img/mousepad/mousepad_sizes.jpg",
-            "price": 250.00
+            "price": 250.00,
+            "anime": "One Piece"
         },
         {   
-            "id": "onepeiceLuffyMousepad",
+            "id": "520",
             "prodName": "One Piece - Luffy Mousepad",
             "photo1": "img/mousepad/OnePeaceLuffy.jpg",
             "photo2": "img/mousepad/mousepad_sizes.jpg",
-            "price": 250.00
+            "price": 250.00,
+            "anime": "One Piece"
         },
         {   
-            "id": "onepieceNewWorldMousepad",
+            "id": "521",
             "prodName": "One Piece - New World Mousepad",
             "photo1": "img/mousepad/OnePeaceNewWorld.jpg",
             "photo2": "img/mousepad/mousepad_sizes.jpg",
-            "price": 250.00
+            "price": 250.00,
+            "anime": "One Piece"
         },
         {   
-            "id": "onepieceZoroMousepad",
+            "id": "522",
             "prodName": "One Piece - Zoro Mousepad",
             "photo1": "img/mousepad/OnePeaceZoro.jpg",
             "photo2": "img/mousepad/mousepad_sizes.jpg",
-            "price": 250.00
+            "price": 250.00,
+            "anime": "One Piece"
         },
         {   
-            "id": "pochitaLoveMousepad",
+            "id": "523",
             "prodName": "Chainsaw Man - Pochita Love Mousepad",
             "photo1": "img/mousepad/PochitaLove.webp",
             "photo2": "img/mousepad/mousepad_sizes.jpg",
-            "price": 250.00
+            "price": 250.00,
+            "anime": "Chainsaw Man"
         },
         {   
-            "id": "powerMousepad",
+            "id": "524",
             "prodName": "Chainsaw Man - Power Mousepad",
             "photo1": "img/mousepad/Power.webp",
             "photo2": "img/mousepad/mousepad_sizes.jpg",
-            "price": 250.00
+            "price": 250.00,
+            "anime": "Chainsaw Man"
         },
         {   
-            "id": "rengokuDSMousepad",
+            "id": "525",
             "prodName": "Demon Slayer - Rengoku Mousepad",
             "photo1": "img/mousepad/RengokuDS.jpg",
             "photo2": "img/mousepad/mousepad_sizes.jpg",
-            "price": 250.00
+            "price": 250.00,
+            "anime": "Demon Slayer"
         },
         {   
-            "id": "shinobuDSMousepad",
+            "id": "526",
             "prodName": "Demon Slayer - Shinobu Mousepad",
             "photo1": "img/mousepad/ShinobuDS.jpg",
             "photo2": "img/mousepad/mousepad_sizes.jpg",
-            "price": 250.00
+            "price": 250.00,
+            "anime": "Demon Slayer"
         },
         {   
-            "id": "shotoMHAMousepad",
+            "id": "527",
             "prodName": "My Hero Academia - Shoto Mousepad",
             "photo1": "img/mousepad/ShotoMHA.jpg",
             "photo2": "img/mousepad/mousepad_sizes.jpg",
             "price": 250.00
         },
         {   
-            "id": "siblingsDSMousepad",
+            "id": "528",
             "prodName": "Demon Slayer - Siblings Mousepad",
             "photo1": "img/mousepad/SiblingsDS.jpg",
             "photo2": "img/mousepad/Siblings1DS.jpg",
             "photo3": "img/mousepad/mousepad_sizes.jpg",
-            "price": 250.00
+            "price": 250.00,
+            "anime": "Demon Slayer"
         },
         {   
-            "id": "zenitsuDSMousepad",
+            "id": "529",
             "prodName": "Demon Slayer - Zenitsu Mousepad",
             "photo1": "img/mousepad/ZenitsuDS.jpg",
             "photo2": "img/mousepad/mousepad_sizes.jpg",
-            "price": 250.00
+            "price": 250.00,
+            "anime": "Demon Slayer"
         }
       ]
     }
