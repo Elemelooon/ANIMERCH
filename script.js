@@ -118,7 +118,7 @@ function filter(){
                     <img src="${item.photo1}" class="card-img-top" alt="">
                     <div class="card-body">
                         <h5 class="card-title">${item.prodName}</h5>
-                        PHP ${price}
+                         ${price}
                     </div>
                 </div>
             </div>`;
@@ -243,7 +243,7 @@ function displayModal(productId) {
                 <div class="modal-body">
                     <div class="container-fluid">
                         <div class="row">
-                            <div class="col-7">
+                            <div class="col-12 col-md-7">
                                 <div class="carousel-container">
                                     <div id="carouselModal" class="carousel slide" data-bs-ride="carousel">      
                                         <div class="carousel">
@@ -269,7 +269,7 @@ function displayModal(productId) {
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-5">
+                            <div class="col-12 col-md-5">
                                 <dl>
                                 <dt class="h5">Product:</dt>
                                 <dd class="modDes">${product.prodName}</dd>
