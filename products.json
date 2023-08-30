@@ -426,14 +426,16 @@
             "photo1": "img/tshirts/anya1.jpg",
             "photo2": "img/tshirts/anya2.jpg",
             "price": 349.00,
-            "anime": "Spy x Family"
+            "anime": "Spy x Family",
+            "description": "Crafted from premium cotton, this t-shirt offers unbeatable comfort and a relaxed fit. Large size available. "
         },
         {   
             "id": "312",
             "prodName": "AOT - Colossal Titan T-Shirt",
             "photo1": "img/tshirts/colossal1.jpg",
             "photo2": "img/tshirts/colossal2.jpg",
-            "price": 360.05
+            "price": 360.05,
+            "description": "Crafted from premium cotton, this t-shirt offers unbeatable comfort and a relaxed fit. Large size available. " 
         },
         {   
             "id": "313",
@@ -441,21 +443,24 @@
             "photo1": "img/tshirts/gon1.jpg",
             "photo2": "img/tshirts/gon2.jpg",
             "price": 299.50,
-            "anime": "Hunter x Hunter"
+            "anime": "Hunter x Hunter",
+            "description": "Crafted from premium cotton, this t-shirt offers unbeatable comfort and a relaxed fit. Large size available. "
         },
         {   
             "id": "314",
             "prodName": "Tokyo Ghoul - Kaneki T-Shirt",
             "photo1": "img/tshirts/kaneki.jpg",
             "price": 339.40,
-            "anime": "Tokyo Ghoul"
+            "anime": "Tokyo Ghoul",
+            "description": "Crafted from premium cotton, this t-shirt offers unbeatable comfort and a relaxed fit. Large size available. "
         },
         {   
             "id": "315",
             "prodName": "Tokyo Ghoul - Kaneki & Rize T-Shirt",
             "photo1": "img/tshirts/kanekirize.jpg",
             "price": 339.40,
-            "anime": "Tokyo Ghoul"
+            "anime": "Tokyo Ghoul",
+            "description": "Crafted from premium cotton, this t-shirt offers unbeatable comfort and a relaxed fit. Large size available. "
         },
         {   
             "id": "316",
@@ -463,7 +468,8 @@
             "photo1": "img/tshirts/makima1.jpg",
             "photo2": "img/tshirts/makima 2.jpg",
             "price": 389.60,
-            "anime": "Chainsaw Man"
+            "anime": "Chainsaw Man",
+            "description": "Crafted from premium cotton, this t-shirt offers unbeatable comfort and a relaxed fit. Large size available. "
         },
         {   
             "id": "317",
@@ -471,7 +477,8 @@
             "photo1": "img/tshirts/power1.jpg",
             "photo2": "img/tshirts/power2.jpg",
             "price": 399.00,
-            "anime": "Chainsaw Man"
+            "anime": "Chainsaw Man",
+            "description": "Crafted from premium cotton, this t-shirt offers unbeatable comfort and a relaxed fit. Large size available. "
         }
       ],
       "hoodies": [
@@ -483,7 +490,8 @@
             "photo3": "img/hoodies/darlingfranx2.jpg",
             "photo4": "img/hoodies/darlingfranx4.jpg",
             "photo5": "img/hoodies/darlingfranx5.jpg",
-            "price": 549.00
+            "price": 549.00,
+            "description": "Crafted with soft, high-quality fleece, this hoodie offers unparalleled comfort for all-day wear. Large size available. "
         },
         {   
             "id": "412",
@@ -491,14 +499,16 @@
             "photo1": "img/hoodies/goku1hoodie.jpg",
             "photo2": "img/hoodies/goku2hoodie.jpg",
             "price": 499.00,
-            "anime": "Hunter x Hunter"
+            "anime": "Hunter x Hunter",
+            "description": "Crafted with soft, high-quality fleece, this hoodie offers unparalleled comfort for all-day wear. Large size available. "
         },
         {   
             "id": "413",
             "prodName": "HxH - Gon Hoodie",
             "photo1": "img/hoodies/gonhoodie.jpg",
             "price": 450.00,
-            "anime": "Hunter x Hunter"
+            "anime": "Hunter x Hunter",
+            "description": "Crafted with soft, high-quality fleece, this hoodie offers unparalleled comfort for all-day wear. Large size available. "
         },
         {   
             "id": "414",
@@ -506,34 +516,39 @@
             "photo1": "img/hoodies/jjk0.jpg",
             "photo2": "img/hoodies/jjk1.jpg",
             "price": 449.50,
-            "anime": "Jujutsu Kaisen"
+            "anime": "Jujutsu Kaisen",
+            "description": "Crafted with soft, high-quality fleece, this hoodie offers unparalleled comfort for all-day wear. Large size available. "
         },
         {   
             "id": "415",
             "prodName": "Naruto Shippuden - Shadow Clones Hoodie",
             "photo1": "img/hoodies/naruto.jpg",
             "price": 450.00,
-            "anime": "Naruto"
+            "anime": "Naruto",
+            "description": "Crafted with soft, high-quality fleece, this hoodie offers unparalleled comfort for all-day wear. Large size available. "
         },
         {   
             "id": "416",
             "prodName": "Naruto Shippuden - Naruto Kanji Hoodie",
             "photo1": "img/hoodies/naruto2hoodie.jpg",
             "price": 399.00,
-            "anime": "Naruto"
+            "anime": "Naruto",
+            "description": "Crafted with soft, high-quality fleece, this hoodie offers unparalleled comfort for all-day wear. Large size available. "
         },
         {   
             "id": "417",
             "prodName": "Neon Genesis - Asuka Shikinami",
             "photo1": "img/hoodies/neongenesishoodie.jpg",
-            "price": 399.00
+            "price": 399.00,
+            "description": "Crafted with soft, high-quality fleece, this hoodie offers unparalleled comfort for all-day wear. Large size available. "
         },
         {   
             "id": "418",
             "prodName": "Tokyo Ghoul - Kanji Kaneki Mask",
             "photo1": "img/hoodies/tokyoghoulhoodie.jpg",
             "price": 399.00,
-            "anime": "Tokyo Ghoul"
+            "anime": "Tokyo Ghoul",
+            "description": "Crafted with soft, high-quality fleece, this hoodie offers unparalleled comfort for all-day wear. Large size available. "
         },
         {   
             "id": "419",
@@ -541,7 +556,8 @@
             "photo1": "img/hoodies/zeroTwoSweatShirt0.jpg",
             "photo2": "img/hoodies/zeroTwoSweatShirt1.jpg",
             "photo3": "img/hoodies/zeroTwoSweatShirt2/jpg",
-            "price": 399.00
+            "price": 399.00,
+            "description": "Crafted with soft, high-quality fleece, this hoodie offers unparalleled comfort for all-day wear. Large size available. "
         }
       ],
       "mousepads": [
@@ -551,7 +567,8 @@
             "photo1": "img/mousepad/ChainsawChicks.webp",
             "photo2": "img/mousepad/mousepad_sizes.jpg",
             "price": 250.00,
-            "anime": "Chainsaw Man"
+            "anime": "Chainsaw Man",
+            "description": " Designed for precision and style, this mousepad features a smooth surface that ensures effortless mouse movement and accurate tracking. Large size available. "
         },
         {   
             "id": "512",
@@ -559,7 +576,8 @@
             "photo1": "img/mousepad/ChainsawSilhouettes.webp",
             "photo2": "img/mousepad/mousepad_sizes.jpg",
             "price": 250.00,
-            "anime": "Chainsaw Man"
+            "anime": "Chainsaw Man",
+            "description": " Designed for precision and style, this mousepad features a smooth surface that ensures effortless mouse movement and accurate tracking. Large size available. "
         },
         {   
             "id": "513",
@@ -567,7 +585,8 @@
             "photo1": "img/mousepad/CriticalChainsaw.webp",
             "photo2": "img/mousepad/mousepad_sizes.jpg",
             "price": 250.00,
-            "anime": "Chainsaw Man"
+            "anime": "Chainsaw Man",
+            "description": " Designed for precision and style, this mousepad features a smooth surface that ensures effortless mouse movement and accurate tracking. Large size available. "
         },
         {   
             "id": "514",
@@ -575,14 +594,16 @@
             "photo1": "img/mousepad/GiyuDS.jpg",
             "photo2": "img/mousepad/mousepad_sizes.jpg",
             "price": 450.00,
-            "anime": "Demon Slayer"
+            "anime": "Demon Slayer",
+            "description": " Designed for precision and style, this mousepad features a smooth surface that ensures effortless mouse movement and accurate tracking. Large size available. "
         },
         {   
             "id": "515",
             "prodName": "My Hero Academia - Hero Vs Villan Mousepad",
             "photo1": "img/mousepad/HeroVsVillanMHA.jpg",
             "photo2": "img/mousepad/mousepad_sizes.jpg",
-            "price": 250.00
+            "price": 250.00,
+            "description": " Designed for precision and style, this mousepad features a smooth surface that ensures effortless mouse movement and accurate tracking. Large size available. "
         },
         {   
             "id": "516",
@@ -590,7 +611,8 @@
             "photo1": "img/mousepad/InosukeDS.jpg",
             "photo2": "img/mousepad/mousepad_sizes.jpg",
             "price": 250.00,
-            "anime": "Demon Slayer"
+            "anime": "Demon Slayer",
+            "description": " Designed for precision and style, this mousepad features a smooth surface that ensures effortless mouse movement and accurate tracking. Large size available. "
         },
         {   
             "id": "517",
@@ -598,7 +620,8 @@
             "photo1": "img/mousepad/LustofPower.webp",
             "photo2": "img/mousepad/mousepad_sizes.jpg",
             "price": 250.00,
-            "anime": "Chainsaw Man"
+            "anime": "Chainsaw Man",
+            "description": " Designed for precision and style, this mousepad features a smooth surface that ensures effortless mouse movement and accurate tracking. Large size available. "
         },
         {   
             "id": "518",
@@ -606,7 +629,8 @@
             "photo1": "img/mousepad/OnePeace.jpg",
             "photo2": "img/mousepad/mousepad_sizes.jpg",
             "price": 250.00,
-            "anime": "One Piece"
+            "anime": "One Piece",
+            "description": " Designed for precision and style, this mousepad features a smooth surface that ensures effortless mouse movement and accurate tracking. Large size available. "
         },
         {   
             "id": "519",
@@ -614,7 +638,8 @@
             "photo1": "img/mousepad/OnePeaceChars.jpg",
             "photo2": "img/mousepad/mousepad_sizes.jpg",
             "price": 250.00,
-            "anime": "One Piece"
+            "anime": "One Piece",
+            "description": " Designed for precision and style, this mousepad features a smooth surface that ensures effortless mouse movement and accurate tracking. Large size available. "
         },
         {   
             "id": "520",
@@ -622,7 +647,8 @@
             "photo1": "img/mousepad/OnePeaceLuffy.jpg",
             "photo2": "img/mousepad/mousepad_sizes.jpg",
             "price": 250.00,
-            "anime": "One Piece"
+            "anime": "One Piece",
+            "description": " Designed for precision and style, this mousepad features a smooth surface that ensures effortless mouse movement and accurate tracking. Large size available. "
         },
         {   
             "id": "521",
@@ -630,7 +656,8 @@
             "photo1": "img/mousepad/OnePeaceNewWorld.jpg",
             "photo2": "img/mousepad/mousepad_sizes.jpg",
             "price": 250.00,
-            "anime": "One Piece"
+            "anime": "One Piece",
+            "description": " Designed for precision and style, this mousepad features a smooth surface that ensures effortless mouse movement and accurate tracking. Large size available. "
         },
         {   
             "id": "522",
@@ -638,7 +665,8 @@
             "photo1": "img/mousepad/OnePeaceZoro.jpg",
             "photo2": "img/mousepad/mousepad_sizes.jpg",
             "price": 250.00,
-            "anime": "One Piece"
+            "anime": "One Piece",
+            "description": " Designed for precision and style, this mousepad features a smooth surface that ensures effortless mouse movement and accurate tracking. Large size available. "
         },
         {   
             "id": "523",
@@ -646,7 +674,8 @@
             "photo1": "img/mousepad/PochitaLove.webp",
             "photo2": "img/mousepad/mousepad_sizes.jpg",
             "price": 250.00,
-            "anime": "Chainsaw Man"
+            "anime": "Chainsaw Man",
+            "description": " Designed for precision and style, this mousepad features a smooth surface that ensures effortless mouse movement and accurate tracking. Large size available. "
         },
         {   
             "id": "524",
@@ -654,7 +683,8 @@
             "photo1": "img/mousepad/Power.webp",
             "photo2": "img/mousepad/mousepad_sizes.jpg",
             "price": 250.00,
-            "anime": "Chainsaw Man"
+            "anime": "Chainsaw Man",
+            "description": " Designed for precision and style, this mousepad features a smooth surface that ensures effortless mouse movement and accurate tracking. Large size available. "
         },
         {   
             "id": "525",
@@ -662,7 +692,8 @@
             "photo1": "img/mousepad/RengokuDS.jpg",
             "photo2": "img/mousepad/mousepad_sizes.jpg",
             "price": 250.00,
-            "anime": "Demon Slayer"
+            "anime": "Demon Slayer",
+            "description": " Designed for precision and style, this mousepad features a smooth surface that ensures effortless mouse movement and accurate tracking. Large size available. "
         },
         {   
             "id": "526",
@@ -670,14 +701,16 @@
             "photo1": "img/mousepad/ShinobuDS.jpg",
             "photo2": "img/mousepad/mousepad_sizes.jpg",
             "price": 250.00,
-            "anime": "Demon Slayer"
+            "anime": "Demon Slayer",
+            "description": " Designed for precision and style, this mousepad features a smooth surface that ensures effortless mouse movement and accurate tracking. Large size available. "
         },
         {   
             "id": "527",
             "prodName": "My Hero Academia - Shoto Mousepad",
             "photo1": "img/mousepad/ShotoMHA.jpg",
             "photo2": "img/mousepad/mousepad_sizes.jpg",
-            "price": 250.00
+            "price": 250.00,
+            "description": " Designed for precision and style, this mousepad features a smooth surface that ensures effortless mouse movement and accurate tracking. Large size available. "
         },
         {   
             "id": "528",
@@ -686,7 +719,8 @@
             "photo2": "img/mousepad/Siblings1DS.jpg",
             "photo3": "img/mousepad/mousepad_sizes.jpg",
             "price": 250.00,
-            "anime": "Demon Slayer"
+            "anime": "Demon Slayer",
+            "description": " Designed for precision and style, this mousepad features a smooth surface that ensures effortless mouse movement and accurate tracking. Large size available. "
         },
         {   
             "id": "529",
@@ -694,7 +728,8 @@
             "photo1": "img/mousepad/ZenitsuDS.jpg",
             "photo2": "img/mousepad/mousepad_sizes.jpg",
             "price": 250.00,
-            "anime": "Demon Slayer"
+            "anime": "Demon Slayer",
+            "description": " Designed for precision and style, this mousepad features a smooth surface that ensures effortless mouse movement and accurate tracking. Large size available. "
         }
       ]
     }

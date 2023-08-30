@@ -55,12 +55,12 @@
                         </ul>
                         <div id="loginForm" class="loginSignUp">
                             <div class="button-container">
-                                <button  class="button sign-up" data-bs-toggle="modal" data-bs-target="#signupModal">Sign Up</button>
+                                <button class="button sign-up" data-bs-toggle="modal" data-bs-target="#signupModal">Sign Up</button>
                             </div>
                         </div>
                         <div id="signupForm" class="loginSignUp">
                             <div class="button-container">
-                                <button  class="button login" data-bs-toggle="modal" data-bs-target="#loginModal">Login</button>
+                                <button class="button login" data-bs-toggle="modal" data-bs-target="#loginModal">Login</button>
                             </div>
                         </div>
                     </div>
@@ -139,7 +139,7 @@
                                 <p> <i class="fa-solid fa-circle-info"> </i> Email and Password must contain: <br> a-z, A-Z, 0-9 </p>
                             </div>
                             <div>
-                                <button class="btn btn-dark" type="submit" id="signUpBtn" onclick="addData(event)">
+                                <button class="btn modbtn btn-dark" type="submit" id="signUpBtn" onclick="addData(event)">
                                     <i class="fas fa-lock"></i>
                                     Sign Up
                                 </button>
@@ -151,7 +151,7 @@
                     </div>
                     <!-- MODAL FOOTER -->
                     <div class="modal-footer">
-                        <button class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                        <button class="btn modbtn btn-danger" data-bs-dismiss="modal">Close</button>
                     </div>
                 </div>
             </div>
@@ -184,7 +184,7 @@
                             </div>
     
                             <div>
-                                <button class="btn btn-dark" type="submit" onclick="checkData(event)">
+                                <button class="btn modbtn btn-dark" type="submit" onclick="checkData(event)">
                                     <i class="fas fa-lock"></i>
                                     Login
                                 </button>
@@ -199,7 +199,7 @@
                     </div>
                     <!-- MODAL FOOTER -->
                     <div class="modal-footer">
-                        <button class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                        <button class="btn modbtn btn-danger" data-bs-dismiss="modal">Close</button>
                     </div>
                 </div>
             </div>
@@ -207,7 +207,7 @@
         <!-- MODAL DETAILS -->
     
     <!-- CAROUSEL -->
-    <div class="carousel-container">
+    <div class="wallpapercarousel carousel-container">
         <div id="carouselSample" class="carousel slide" data-bs-ride="carousel">
             <!-- INDICATOR -->
             <div class="carousel-indicators">
@@ -249,6 +249,15 @@
                 <div class="carousel-item">
                     
                     <img src="img/wampiiiss.png" class="d-block" alt="">
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1></h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    
+                    <img src="img/atktitan.webp" class="d-block" alt="">
                     <div class="container">
                         <div class="carousel-caption">
                             <h1></h1>
@@ -317,7 +326,7 @@
 
     <!-- /MODAL -->
     <div class="modal" id="prodmod">
-        <div class="modal-dialog modal-lg">
+        <div class="modal-dialog modal-xl">
             <div class="modal-content" id="displaySelected">
                 <div class="modal-header">
                     <h5 class="modal-title" id="modaltitle"></h5>
@@ -326,7 +335,7 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-7">
-                                <div class="carousel-container">
+                                <div class="productcarousel carousel-container">
                                     <div id="carouselModal" class="carousel slide" data-bs-ride="carousel">      
                                         <div class="carousel">
                                             <div class="carousel-item active">

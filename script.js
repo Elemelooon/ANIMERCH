@@ -269,6 +269,7 @@ function displayModal(productId) {
                                         <span class="carousel-control-next-icon"></span>
                                         </button>
                                     </div>
+
                                 </div>
                             </div>
                             <div class="col-12 col-md-5">
@@ -301,6 +302,9 @@ function displayModal(productId) {
                             </div>
                         </div>
                     </div>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn modbtn btn-danger" data-bs-dismiss="modal">Close</button>
                 </div>
             </div>        
 
