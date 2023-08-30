@@ -250,6 +250,9 @@ input[type="password"]{
 .modal-body{
     margin-left: 120px;
 }
+.hidden{
+    display: none;
+}
 .btn{
     margin-top: 10px;
     width: 240px;

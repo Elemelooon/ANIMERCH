@@ -8,58 +8,66 @@ let confirmPassword = document.getElementById("confirmPassword");
 let signUpBtn = document.getElementById("signUpBtn");
     
 // signUpBtn.addEventListener("click", registerInformation);
+// function registerInformation(event){
+//     event.preventDefault();
+//     let usernameValue = username.value;
+//     let emailValue = email.value;
+//     let passwordValue = password.value;
+//     let confirmPasswordValue = confirmPassword.value;
     
-function registerInformation(event){
-    event.preventDefault();
-    let usernameValue = username.value;
-    let emailValue = email.value;
-    let passwordValue = password.value;
-    let confirmPasswordValue = confirmPassword.value;
+//     let emailRegX = /^([\w\d]+)@([\w]+)\.([\w\.]+)$/;
+//     let passwordRegX = /^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[\W]).{8,20}[\w\W]/;
+//          // + to combine
+//         //allowing special chars 1 by 1
+//         // $ ending the statement
+//         // {start, end} for range
+//         // add _@\s for spaces
+//         //allowing capital and noncapital letter on our input
+//         //[\w] for a-z, A-Z, 0-9
+//         //[\W] for special chars
+//         //[\d] for digits 0-9
     
-    let emailRegX = /^([\w\d]+)@([\w]+)\.([\w\.]+)$/;
-    let passwordRegX = /^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[\W]).{8,20}[\w\W]/;
-         // + to combine
-        //allowing special chars 1 by 1
-        // $ ending the statement
-        // {start, end} for range
-        // add _@\s for spaces
-        //allowing capital and noncapital letter on our input
-        //[\w] for a-z, A-Z, 0-9
-        //[\W] for special chars
-        //[\d] for digits 0-9
+//         // for password
+//         // 1 = small char
+//         // 1 = big char
+//         // 1 = special char
+//         // 8-10 chars only
     
-        // for password
-        // 1 = small char
-        // 1 = big char
-        // 1 = special char
-        // 8-10 chars only
+//     if(emailValue.match(emailRegX)){
+//         alert("Valid Email");
+//     }else{
+//         alert("Invalid Email");
+//     }
     
-    if(emailValue.match(emailRegX)){
-        alert("Valid Email");
-    }else{
-        alert("Invalid Email");
-    }
-    
-    if(passwordValue.match(passwordRegX)){
-        alert("Valid Password");
-    }else{
-        alert("Invalid Password");
-    }
-}
+//     if(passwordValue.match(passwordRegX)){
+//         alert("Valid Password");
+//     }else{
+//         alert("Invalid Password");
+//     }
+// }
     // SIGNUP AND LOGIN FUNCTION
+let signupForm = document.getElementById("signupForm");
+let loginForm = document.getElementById("loginForm");
+let profile = document.getElementById("profile");
+let profileUsername = document.getElementById("profileUsername");
+
 function addData(event){
     event.preventDefault();
     let email = document.getElementById('signupEmail').value;
     let emailPass = document.getElementById('signupPassword').value;
+    profileUsername.textContent = email;
     // store data
     localStorage.setItem('userEmail', email);
     localStorage.setItem('userPass', emailPass);
+    showProfile();
 }
 
 function checkData(event){
     event.preventDefault();
     let enterEmail = document.getElementById('emailLogin').value;
     let enterPass = document.getElementById('passLogin').value;
+    profileUsername.textContent = enterEmail;
+    
     // get data
     let getEmail = localStorage.getItem('userEmail');
     let getPass = localStorage.getItem('userPass');
@@ -73,6 +81,20 @@ function checkData(event){
     }else{
         alert("No User Found");
     }
+    showProfile();
+}
+
+function showProfile() {
+    signupForm.classList.add("hidden");
+    loginForm.classList.add("hidden");
+    profile.classList.remove("hidden");
+}
+
+function logout() {
+    profileUsername.textContent = "";
+    profile.classList.add("hidden");
+    signupForm.classList.remove("hidden");
+    loginForm.classList.remove("hidden");
 }
 //FILTER FUNCTIONS
 let selectProd = document.getElementById('productselector');

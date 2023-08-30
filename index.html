@@ -59,12 +59,19 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="loginSignUp">
+                    <div id="loginForm" class="loginSignUp">
                         <div class="button-container">
-                            <button class="button sign-up" data-bs-toggle="modal" data-bs-target="#signupModal">Sign Up</button>
-
-                            <button class="button login" data-bs-toggle="modal" data-bs-target="#loginModal">Login</button>
+                            <button  class="button sign-up" data-bs-toggle="modal" data-bs-target="#signupModal">Sign Up</button>
                         </div>
+                    </div>
+                    <div id="signupForm" class="loginSignUp">
+                        <div class="button-container">
+                            <button  class="button login" data-bs-toggle="modal" data-bs-target="#loginModal">Login</button>
+                        </div>
+                    </div>
+                    <div id="profile" class="hidden">
+                        <p>User: <span id="profileUsername"></span></p>
+                        <button onclick="logout()">Logout</button>
                     </div>
             </div>
             <script>
