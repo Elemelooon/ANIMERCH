@@ -1,3 +1,67 @@
+    //  SIGNUP      
+    let username = document.getElementById("username");
+    let email = document.getElementById("email");
+    let password = document.getElementById("password");
+    let confirmPassword = document.getElementById("confirmPassword");
+    let signUpBtn = document.getElementById("signUpBtn");
+        
+    
+        // SIGNUP AND LOGIN FUNCTION
+    let signupForm = document.getElementById("signupForm");
+    let loginForm = document.getElementById("loginForm");
+    let profile = document.getElementById("profile");
+    let profileUsername = document.getElementById("profileUsername");
+    
+    function addData(event){
+        event.preventDefault();
+        let email = document.getElementById('signupEmail').value;
+        let emailPass = document.getElementById('signupPassword').value;
+        profileUsername.textContent = email;
+        // store data
+        localStorage.setItem('userEmail', email);
+        localStorage.setItem('userPass', emailPass);
+        alert("Signed Up Successful");
+        showProfile();
+    }
+    
+    function checkData(event){
+        event.preventDefault();
+        let enterEmail = document.getElementById('emailLogin').value;
+        let enterPass = document.getElementById('passLogin').value;
+        profileUsername.textContent = enterEmail;
+        
+        // get data
+        let getEmail = localStorage.getItem('userEmail');
+        let getPass = localStorage.getItem('userPass');
+    
+        if(enterEmail == getEmail){
+            if(enterPass == getPass){
+                alert("Login Successful");
+                showProfile();
+            }else {
+                alert("Wrong Password");
+            }
+        }else{
+            alert("No User Found");
+        }
+        
+    }
+    
+    function showProfile() {
+        signupForm.classList.add("hidden");
+        loginForm.classList.add("hidden");
+        profile.classList.remove("hidden");
+    }
+    
+    function logout() {
+        profileUsername.textContent = "";
+        profile.classList.add("hidden");
+        signupForm.classList.remove("hidden");
+        loginForm.classList.remove("hidden");
+    }
+    
+
+
 function displayCart(){
     let totalPrice = 0;
     let getCart = JSON.parse(localStorage.getItem("myCart"));
