@@ -99,119 +99,110 @@
         </div>
     </div>
     <!-- /Sidebar -->
-    <!-- MODAL -->
-    <div class="modal" id="signupModal">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <!-- MODAL HEADER -->
-                <div class="modal-header">
-                    <h5 class="modal-title signupTitle" id="signinMod">SIGN UP FORM</h5>
-                </div>
-                <!-- MODAL BODY -->
-                <div class="modal-body signupBody">
-                    <form>
-                        <label>
-                            <i class="fas fa-user"></i>
-                            Username <i class="fa-solid fa-circle-info"></i>
-                        </label>
-                        <div>
-                            <input type="text" id="username" placeholder="Username" required/>
-                        </div>
-                        <label>
-                            <i class="fas fa-user"></i>
-                            Email <a href="#" data-toggle="popover" title="Popover Header" data-content="Some content inside the popover"><i class="fa-solid fa-circle-info"></i></a>
-                        </label>
-                        <script>
-                            $(document).ready(function(){
-                              $('[data-toggle="popover"]').popover();
-                            });
-                            </script>
-                        <div>
-                            <input type="text" id="email" placeholder="Email" required/>
-                        </div>
-
-                        <label>
-                            <i class="fas fa-key"></i>
-                            Password <i class="fa-solid fa-circle-info"></i>
-                        </label>
-                        <div>
-                            <input type="password" id="password" placeholder="Password" required />
-                        </div>
-                        <label>
-                            <i class="fas fa-key"></i>
-                            Confirm Password <i class="fa-solid fa-circle-info"></i>
-                        </label>
-                        <div>
-                            <input type="password" id="confirmPassword" placeholder="Password" required />
-                        </div>
-
-                        <div>
-                            <button class="btn btn-dark" type="submit" id="signUpBtn" onclick="registerInformation()">
-                                <i class="fas fa-lock"></i>
-                                Sign Up
-                            </button>
-                        </div>
-
-                        <div class="foot">
-                        </div>
-                    </form>
-                </div>
-                <!-- MODAL FOOTER -->
-                <div class="modal-footer">
-                    <button class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+        <!-- MODAL -->
+        <div class="modal" id="signupModal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <!-- MODAL HEADER -->
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="signinMod">SIGN UP FORM</h5>
+                    </div>
+                    <!-- MODAL BODY -->
+                    <div class="modal-body">
+                        <form>
+                            <label>
+                                <i class="fas fa-user"></i>
+                                Email
+                            </label>
+                            <div>
+                                <input type="text" id="signupEmail" placeholder="Email" required/>
+                            </div>
+    
+                            <label>
+                                <i class="fas fa-key"></i>
+                                Password
+                            </label>
+                            <div>
+                                <input type="password" id="signupPassword" placeholder="Password" required />
+                            </div>
+                            <label>
+                                <i class="fas fa-key"></i>
+                                Confirm Password
+    
+                            </label>
+                            <div>
+                                <input type="password" id="signupConfirmPassword" placeholder="Password" required />
+                            </div>
+                            <div>
+                                <p> <i class="fa-solid fa-circle-info"> </i> Email and Password must contain: <br> a-z, A-Z, 0-9 </p>
+                            </div>
+                            <div>
+                                <button class="btn btn-dark" type="submit" id="signUpBtn" onclick="addData()">
+                                    <i class="fas fa-lock"></i>
+                                    Sign Up
+                                </button>
+                            </div>
+    
+                            <div class="foot">
+                            </div>
+                        </form>
+                    </div>
+                    <!-- MODAL FOOTER -->
+                    <div class="modal-footer">
+                        <button class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-
-    <div class="modal" id="loginModal">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <!-- MODAL HEADER -->
-                <div class="modal-header">
-                    <h5 class="modal-title signupTitle" id="loginMod">LOGIN FORM</h5>
-                </div>
-                <!-- MODAL BODY -->
-                <div class="modal-body signupBody">
-                    <form>
-                        <label>
-                            <i class="fas fa-user"></i>
-                            Username
-                        </label>
-                        <div>
-                            <input type="text" placeholder="Username" required/>
-                        </div>
-
-                        <label>
-                            <i class="fas fa-key"></i>
-                            Password
-                        </label>
-                        <div>
-                            <input type="password" placeholder="Password" required />
-                        </div>
-
-                        <div>
-                            <button class="btn btn-dark" type="submit">
-                                <i class="fas fa-lock"></i>
-                                Login
-                            </button>
-                        </div>
-
-                        <div class="foot">
-                            <a href="#" class="new-acc">
-                                I don't have an account!!!
-                            </a>
-                        </div>
-                    </form>
-                </div>
-                <!-- MODAL FOOTER -->
-                <div class="modal-footer">
-                    <button class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+    
+        <div class="modal" id="loginModal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <!-- MODAL HEADER -->
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="loginMod">LOGIN FORM</h5>
+                    </div>
+                    <!-- MODAL BODY -->
+                    <div class="modal-body">
+                        <form>
+                            <label>
+                                <i class="fas fa-user"></i>
+                                Email
+                            </label>
+                            <div>
+                                <input id="emailLogin" type="text" placeholder="Email" required/>
+                            </div>
+    
+                            <label>
+                                <i class="fas fa-key"></i>
+                                Password
+                            </label>
+                            <div>
+                                <input id="passLogin" type="password" placeholder="Password" required />
+                            </div>
+    
+                            <div>
+                                <button class="btn btn-dark" type="submit" onclick="checkData()">
+                                    <i class="fas fa-lock"></i>
+                                    Login
+                                </button>
+                            </div>
+    
+                            <div class="foot">
+                                <a href="" class="new-acc" data-bs-toggle="modal" data-bs-target="#signupModal" >
+                                    No account? Click here to register
+                                </a>
+                            </div>
+                        </form>
+                    </div>
+                    <!-- MODAL FOOTER -->
+                    <div class="modal-footer">
+                        <button class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- MODAL -->
+        <!-- MODAL DETAILS -->
     
     <!-- CAROUSEL -->
     <div class="carousel-container">
@@ -387,55 +378,52 @@
     </div>
 
     <!-- FOOTER -->
-    <div class="container-fluid mt-4">
-        <footer class="text-center text-lg-start">
-            <!-- Section: Social media -->
-              <section class="mb-4 p-3 border-bottom">  
-              <div class="text-center">
-                <a href="https://www.facebook.com/elemelon12/" class="me-4 text-reset">
-                  <i class="fab fa-facebook-f"></i>
-                </a>
-                <a href="https://twitter.com/i/flow/login?redirect_after_login=%2F%3Flang%3Den" class="me-4 text-reset">
-                  <i class="fab fa-twitter"></i>
-                </a>
-                <a href="https://elemelooon.github.io/MP1_WD76_DEASIS/index.html" class="me-4 text-reset">
-                  <i class="fab fa-google"></i>
-                </a>
-                <a href="" class="me-4 text-reset">
-                  <i class="fab fa-instagram"></i>
-                </a>
-                <a href="" class="me-4 text-reset">
-                  <i class="fab fa-linkedin"></i>
-                </a>
-                <a href="https://github.com/Elemelooon" class="me-4 text-reset">
-                  <i class="fab fa-github"></i>
-                </a>
-              </div>
-            </section>
-            <!-- Section: Social media -->
-          
-            <!-- Section: Links  -->
-            <section class="footerlinks d-flex justify-content-center">
-              <div class="container my-4">
-                  <div class="text-center">
-                  <a href="index.html" class="me-4 text-reset">Home</a>
-                  <a href="" class="me-4 text-reset">Contact</a>
-                  <a href="" class="me-4 text-reset">About</a>
-                  <a href="" class="me-4 text-reset">FAQ</a>
-                  </div>
-              </div>
-            </section>
-            <!-- Section: Links  -->
-          
-            <!-- Copyright -->
-            <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
-              © 2023 Copyright: All Rights Reserved
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <a href="#">
+                        <img src="img/Animerchlogo.png" alt="">
+                    </a>
+                    <p><i class="fa-regular fa-copyright">Copyright 2023</i></p>
+                    <p>About Us:</p>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>FAQ's</h4>
+                    <ul>
+                        <li>
+                            <a href="#"><i class="fa-solid fa-newspaper"> News</i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa-solid fa-calendar-days"> Events</i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa-solid fa-blog"> Blogs</i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>FOLLOW US</h4>
+                    <ul>
+                        <li><a href="https://twitter.com/i/flow/login?redirect_after_login=%2F%3Flang%3Den"><i class="fa-brands fa-twitter"> Twitter</i></a></li>
+                        <li><a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"> Facebook</i></a></li>
+                        <li><a href="https://www.instagram.com/accounts/login/"><i class="fa-brands fa-instagram"> Instagram</i></a></li>
+                        <li><a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"> Youtube</i></a></li>
+                        <li><a href="https://github.com/Elemelooon" class="me-4 text-reset"><i class="fab fa-github">Github</i></a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>CONTACT US</h4>
+                    <ul>
+                        <li><a href="#"><i class="fa-solid fa-mobile-screen-button"> +63-92-8123-4567</i></a></li>
+                        <li><a href="#"><i class="fa-solid fa-phone-volume"> 8:00 AM - 6:00 PM</i></a></li>
+                    </ul>
+                </div>
             </div>
-            <!-- Copyright -->
-          </footer>
         </div>
-        <!-- FOOTER -->
-
+        
+    </footer>
 </body>
 <script src="script.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js" integrity="sha512-2rNj2KJ+D8s1ceNasTIex6z4HWyOnEYLVC3FigGOmyQCZc2eBXKgOxQmo3oKLHyfcj53uz4QMsRCWNbLd32Q1g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>

@@ -46,7 +46,34 @@ function registerInformation(event){
         alert("Invalid Password");
     }
 }
-    
+    // SIGNUP AND LOGIN FUNCTION
+function addData(event){
+    event.preventDefault();
+    let email = document.getElementById('signupEmail').value;
+    let emailPass = document.getElementById('signupPassword').value;
+    // store data
+    localStorage.setItem('userEmail', email);
+    localStorage.setItem('userPass', emailPass);
+}
+
+function checkData(event){
+    event.preventDefault();
+    let enterEmail = document.getElementById('emailLogin').value;
+    let enterPass = document.getElementById('passLogin').value;
+    // get data
+    let getEmail = localStorage.getItem('userEmail');
+    let getPass = localStorage.getItem('userPass');
+
+    if(enterEmail == getEmail){
+        if(enterPass == getPass){
+            alert("Login Successful");
+        }else {
+            alert("Wrong Password");
+        }
+    }else{
+        alert("No User Found");
+    }
+}
 //FILTER FUNCTIONS
 let selectProd = document.getElementById('productselector');
 
