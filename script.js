@@ -229,7 +229,11 @@ function displayModal(productId) {
         .then((res) => res.json())
         .then((data) => {
             let product = findProductById(data, productId);
-            
+            let price = product.price.toLocaleString('en-PH', {
+                style: 'currency',
+                currency: 'PHP'
+    
+            });
             if (product) {
                 let modalContent = `
                 <div class="modal-content" id="displaySelected">
@@ -267,12 +271,14 @@ function displayModal(productId) {
                             </div>
                             <div class="col-5">
                                 <dl>
-                                    <dt>Product:</dt>
-                                    <dd>${product.prodName}</dd>
-                                    <dt>Description:</dt>
-                                    <dd>${product.anime}</dd>
-                                    <dt>Price:</dt>
-                                    <dd>${product.price}</dd>
+                                <dt class="h5">Product:</dt>
+                                <dd class="modDes">${product.prodName}</dd>
+                                <dt class="h5">Anime Series:</dt>
+                                <dd class="modDes">${product.anime}</dd>
+                                <dt class="h5">Price:</dt>
+                                <dd class="modDes">${price}</dd>
+                                <dt class="h5">Description:</dt>
+                                <dd class="modDes">${product.description}</dd>
                                 </dl>
                                 <form>
                                 <label for="qtybox" class="form-label">Quantity:</label>

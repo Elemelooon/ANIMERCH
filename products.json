@@ -8,7 +8,8 @@
           "photo2": "img/keychains/ai1.jpg",
           "photo3": "img/keychains/ai2.jpg",
           "price": 426.04,
-          "anime": "Oshi No Ko"
+          "anime": "Oshi No Ko",
+          "description": "Handmade, Detailed and high quality double sided, “5 in x 1 in” embroidered jet tag keychain"
         },
         {
             "id": "112",
@@ -17,7 +18,8 @@
             "photo2": "img/keychains/akaza1.jpg",
             "photo3": "img/keychains/akaza2.jpg",
             "price": 426.04,
-            "anime": "Demon Slayer"
+            "anime": "Demon Slayer",
+            "description": "Handmade, Detailed and high quality double sided, “5 in x 1 in” embroidered jet tag keychain"
         },
         {
             "id": "113",
@@ -26,7 +28,8 @@
             "photo2": "img/keychains/aki1.jpg",
             "photo3": "img/keychains/aki2.jpg",
             "price": 426.04,
-            "anime": "Chainsaw Man"
+            "anime": "Chainsaw Man",
+            "description": "Handmade, Detailed and high quality double sided, “5 in x 1 in” embroidered jet tag keychain"
         },
         {
             "id": "114",
@@ -35,7 +38,8 @@
             "photo2": "img/keychains/gojo1.jpg",
             "photo3": "img/keychains/gojo2.jpg",
             "price": 426.04,
-            "anime": "Jujutsu Kaisen"
+            "anime": "Jujutsu Kaisen",
+            "description": "Handmade, Detailed and high quality double sided, “5 in x 1 in” embroidered jet tag keychain"
         },
         {
             "id": "115",
@@ -44,7 +48,8 @@
             "photo2": "img/keychains/killua1.jpg",
             "photo3": "img/keychains/killua2.jpg",
             "price": 426.04,
-            "anime": "Hunter x Hunter"
+            "anime": "Hunter x Hunter",
+            "description": "Handmade, Detailed and high quality double sided, “5 in x 1 in” embroidered jet tag keychain"
         },
         {
             "id": "116",
@@ -53,7 +58,8 @@
             "photo2": "img/keychains/robin1.jpg",
             "photo3": "img/keychains/robin2.jpg",
             "price": 426.04,
-            "anime": "One Piece"
+            "anime": "One Piece",
+            "description": "Handmade, Detailed and high quality double sided, “5 in x 1 in” embroidered jet tag keychain"
         },
         {
             "id": "117",
@@ -62,7 +68,8 @@
             "photo2": "img/keychains/yor1.jpg",
             "photo3": "img/keychains/yor2.jpg",
             "price": 426.04,
-            "anime": "Spy x Family"
+            "anime": "Spy x Family",
+            "description": "Handmade, Detailed and high quality double sided, “5 in x 1 in” embroidered jet tag keychain"
         },
         {
             "id": "118",
@@ -71,7 +78,8 @@
             "photo2": "img/keychains/zenitsu1.jpg",
             "photo3": "img/keychains/zenitsu2.jpg",
             "price": 426.04,
-            "anime": "Demon Slayer"
+            "anime": "Demon Slayer",
+            "description": "Handmade, Detailed and high quality double sided, “5 in x 1 in” embroidered jet tag keychain"
         },
         {
             "id": "119",
@@ -80,7 +88,8 @@
             "photo2": "img/keychains/zoro1.jpg",
             "photo3": "img/keychains/zoro2.jpg",
             "price": 426.04,
-            "anime": "One Piece"
+            "anime": "One Piece",
+            "description": "Handmade, Detailed and high quality double sided, “5 in x 1 in” embroidered jet tag keychain"
         },
         {
             "id": "120",
@@ -89,7 +98,8 @@
             "photo2": "img/keychains/ace1.webp",
             "photo3": "img/keychains/ace2.webp",
             "price": 426.04,
-            "anime": "One Piece"
+            "anime": "One Piece",
+            "description": "Handmade, Detailed and high quality double sided, “5 in x 1 in” embroidered jet tag keychain"
         },
         {
             "id": "121",
@@ -98,7 +108,8 @@
             "photo2": "img/keychains/doma1.webp",
             "photo3": "img/keychains/doma2.webp",
             "price": 426.04,
-            "anime": "Demon Slayer"
+            "anime": "Demon Slayer",
+            "description": "Handmade, Detailed and high quality double sided, “5 in x 1 in” embroidered jet tag keychain"
         },
         {
             "id": "122",
@@ -107,7 +118,8 @@
             "photo2": "img/keychains/hinata1.webp",
             "photo3": "img/keychains/hinata2.webp",
             "price": 426.04,
-            "anime": "Naruto"
+            "anime": "Naruto",
+            "description": "Handmade, Detailed and high quality double sided, “5 in x 1 in” embroidered jet tag keychain"
         },
         {
             "id": "123",
@@ -116,7 +128,8 @@
             "photo2": "img/keychains/hisoka1.webp",
             "photo3": "img/keychains/hisoka2.webp",
             "price": 426.04,
-            "anime": "Hunter x Hunter"
+            "anime": "Hunter x Hunter",
+            "description": "Handmade, Detailed and high quality double sided, “5 in x 1 in” embroidered jet tag keychain"
         },
         {
             "id": "124",
@@ -125,7 +138,8 @@
             "photo2": "img/keychains/inosuke1.webp",
             "photo3": "img/keychains/inosuke2.webp",
             "price": 426.04,
-            "anime": "Demon Slayer"
+            "anime": "Demon Slayer",
+            "description": "Handmade, Detailed and high quality double sided, “5 in x 1 in” embroidered jet tag keychain"
         },
         {
             "id": "125",
@@ -134,7 +148,8 @@
             "photo2": "img/keychains/itachi1.webp",
             "photo3": "img/keychains/itachi2.webp",
             "price": 426.04,
-            "anime": "Naruto"
+            "anime": "Naruto",
+            "description": "Handmade, Detailed and high quality double sided, “5 in x 1 in” embroidered jet tag keychain"
         },
         {
             "id": "126",
@@ -143,7 +158,8 @@
             "photo2": "img/keychains/kurapika1.webp",
             "photo3": "img/keychains/kurapika2.webp",
             "price": 426.04,
-            "anime": "Hunter x Hunter"
+            "anime": "Hunter x Hunter",
+            "description": "Handmade, Detailed and high quality double sided, “5 in x 1 in” embroidered jet tag keychain"
         },
         {
             "id": "127",
@@ -152,7 +168,8 @@
             "photo2": "img/keychains/luffy1.webp",
             "photo3": "img/keychains/luffy2.webp",
             "price": 426.04,
-            "anime": "One Piece"
+            "anime": "One Piece",
+            "description": "Handmade, Detailed and high quality double sided, “5 in x 1 in” embroidered jet tag keychain"
         },
         {
             "id": "128",
@@ -161,7 +178,8 @@
             "photo2": "img/keychains/anya1.jpg",
             "photo3": "img/keychains/anya2.jpg",
             "price": 426.04,
-            "anime": "Spy x Family"
+            "anime": "Spy x Family",
+            "description": "Handmade, Detailed and high quality double sided, “5 in x 1 in” embroidered jet tag keychain"
         },
         {
             "id": "129",
@@ -170,7 +188,8 @@
             "photo2": "img/keychains/nezuko1.jpg",
             "photo3": "img/keychains/nezuko2.jpg",
             "price": 426.04,
-            "anime": "Demon Slayer"
+            "anime": "Demon Slayer",
+            "description": "Handmade, Detailed and high quality double sided, “5 in x 1 in” embroidered jet tag keychain"
         },
         {
             "id": "130",
@@ -179,7 +198,8 @@
             "photo2": "img/keychains/makima1.webp",
             "photo3": "img/keychains/makima2.webp",
             "price": 426.04,
-            "anime": "Chainsaw Man"
+            "anime": "Chainsaw Man",
+            "description": "Handmade, Detailed and high quality double sided, “5 in x 1 in” embroidered jet tag keychain"
         },
         {
             "id": "131",
@@ -188,7 +208,8 @@
             "photo2": "img/keychains/mitsuri1.webp",
             "photo3": "img/keychains/mitsuri2.webp",
             "price": 426.04,
-            "anime": "Demon Slayer"
+            "anime": "Demon Slayer",
+            "description": "Handmade, Detailed and high quality double sided, “5 in x 1 in” embroidered jet tag keychain"
 
         },
         {
@@ -198,7 +219,8 @@
             "photo2": "img/keychains/muichiro1.webp",
             "photo3": "img/keychains/muichiro2.webp",
             "price": 426.04,
-            "anime": "Demon Slayer"
+            "anime": "Demon Slayer",
+            "description": "Handmade, Detailed and high quality double sided, “5 in x 1 in” embroidered jet tag keychain"
         },
         {
             "id": "133",
@@ -207,7 +229,8 @@
             "photo2": "img/keychains/naruto1.webp",
             "photo3": "img/keychains/naruto2.webp",
             "price": 426.04,
-            "anime": "Naruto"
+            "anime": "Naruto",
+            "description": "Handmade, Detailed and high quality double sided, “5 in x 1 in” embroidered jet tag keychain"
         },
         {
             "id": "134",
@@ -216,7 +239,8 @@
             "photo2": "img/keychains/narutoseal1.webp",
             "photo3": "img/keychains/narutoseal2.webp",
             "price": 426.04,
-            "anime": "Naruto"
+            "anime": "Naruto",
+            "description": "Handmade, Detailed and high quality double sided, “5 in x 1 in” embroidered jet tag keychain"
         },
         {
             "id": "135",
@@ -225,7 +249,8 @@
             "photo2": "img/keychains/obito1.webp",
             "photo3": "img/keychains/obito2.webp",
             "price": 426.04,
-            "anime": "Naruto"
+            "anime": "Naruto",
+            "description": "Handmade, Detailed and high quality double sided, “5 in x 1 in” embroidered jet tag keychain"
         },
         {
             "id": "136",
@@ -234,7 +259,8 @@
             "photo2": "img/keychains/shinobu1.webp",
             "photo3": "img/keychains/shinobu2.webp",
             "price": 426.04,
-            "anime": "Demon Slayer"
+            "anime": "Demon Slayer",
+            "description": "Handmade, Detailed and high quality double sided, “5 in x 1 in” embroidered jet tag keychain"
         }
       ],
       "sticker": [
@@ -246,7 +272,8 @@
             "photo3": "img/stickers/ai2.webp",
             "video": "img/stickers/aivid.mp4",
             "price": 355.03,
-            "anime": "Oshi No Ko"
+            "anime": "Oshi No Ko",
+            "description": "Handmade, Waterproof/ UV Resistant, ”4 in x 5 in”"
         },
         {
             "id": "212",
@@ -256,7 +283,8 @@
             "photo3": "img/stickers/aki2.webp",
             "video": "img/stickers/akivid.mp4",
             "price": 355.03,
-            "anime": "Chainsaw Man"
+            "anime": "Chainsaw Man",
+            "description": "Handmade, Waterproof/ UV Resistant, ”4 in x 5 in”"
         },
         {
             "id": "213",
@@ -266,17 +294,19 @@
             "photo3": "img/stickers/geto2.webp",
             "video": "img/stickers/getovid.mp4",
             "price": 355.03,
-            "anime": "Jujutsu Kaisen"
+            "anime": "Jujutsu Kaisen",
+            "description": "Handmade, Waterproof/ UV Resistant, ”4 in x 5 in”"
         },
         {
             "id": "214",
             "prodName": "Gojo Satoru Motion Sticker",
-            "photo1": "img/stickers/gojo.webp",
+            "photo1": "img/stickers/gojo.jpg",
             "photo2": "img/stickers/gojo1.webp",
             "photo3": "img/stickers/gojo2.webp",
             "video": "img/stickers/gojovid.mp4",
             "price": 355.03,
-            "anime": "Jujutsu Kaisen"
+            "anime": "Jujutsu Kaisen",
+            "description": "Handmade, Waterproof/ UV Resistant, ”4 in x 5 in”"
         },
         {
             "id": "215",
@@ -286,7 +316,8 @@
             "photo3": "img/stickers/kanao2.webp",
             "video": "img/stickers/kanaovid.mp4",
             "price": 355.03,
-            "anime": "Demon Slayer"
+            "anime": "Demon Slayer",
+            "description": "Handmade, Waterproof/ UV Resistant, ”4 in x 5 in”"
         },
         {
             "id": "216",
@@ -296,7 +327,8 @@
             "photo3": "img/stickers/law2.jpg",
             "video": "img/stickers/lawvid.mp4",
             "price": 355.03,
-            "anime": "One Piece"
+            "anime": "One Piece",
+            "description": "Handmade, Waterproof/ UV Resistant, ”4 in x 5 in”"
         },
         {
             "id": "217",
@@ -306,7 +338,8 @@
             "photo3": "img/stickers/megumi2.jpg",
             "video": "img/stickers/megumivid.mp4",
             "price": 355.03,
-            "anime": "Jujutsu Kaisen"
+            "anime": "Jujutsu Kaisen",
+            "description": "Handmade, Waterproof/ UV Resistant, ”4 in x 5 in”"
         },
         {
             "id": "218",
@@ -316,7 +349,8 @@
             "photo3": "img/stickers/mem2.jpg",
             "video": "img/stickers/memvid.mp4",
             "price": 355.03,
-            "anime": "Oshi No Ko"
+            "anime": "Oshi No Ko",
+            "description": "Handmade, Waterproof/ UV Resistant, ”4 in x 5 in”"
         },
         {
             "id": "219",
@@ -326,7 +360,8 @@
             "photo3": "img/stickers/mitsuri2.webp",
             "video": "img/stickers/mitsurivid.mp4",
             "price": 355.03,
-            "anime": "Demon Slayer"
+            "anime": "Demon Slayer",
+            "description": "Handmade, Waterproof/ UV Resistant, ”4 in x 5 in”"
         },
         {
             "id": "220",
@@ -336,7 +371,8 @@
             "photo3": "img/stickers/muichiro2.webp",
             "video": "img/stickers/muichirovid.mp4",
             "price": 355.03,
-            "anime": "Demon Slayer"
+            "anime": "Demon Slayer",
+            "description": "Handmade, Waterproof/ UV Resistant, ”4 in x 5 in”"
         },
         {
             "id": "221",
@@ -346,7 +382,8 @@
             "photo3": "img/stickers/nami2.jpg",
             "video": "img/stickers/namivid.mp4",
             "price": 355.03,
-            "anime": "One Piece"
+            "anime": "One Piece",
+            "description": "Handmade, Waterproof/ UV Resistant, ”4 in x 5 in”"
         },
         {
             "id": "222",
@@ -356,7 +393,8 @@
             "photo3": "img/stickers/power2.webp",
             "video": "img/stickers/powervid.mp4",
             "price": 355.03,
-            "anime": "Chainsaw Man"
+            "anime": "Chainsaw Man",
+            "description": "Handmade, Waterproof/ UV Resistant, ”4 in x 5 in”"
         },
         {
             "id": "223",
@@ -366,7 +404,8 @@
             "photo3": "img/stickers/robin2.jpg",
             "video": "img/stickers/robinvid.mp4",
             "price": 355.03,
-            "anime": "One Piece"
+            "anime": "One Piece",
+            "description": "Handmade, Waterproof/ UV Resistant, ”4 in x 5 in”"
         },
         {
             "id": "224",
@@ -376,7 +415,8 @@
             "photo3": "img/stickers/ruby2.jpg",
             "video": "img/stickers/rubyvid.mp4",
             "price": 355.03,
-            "anime": "Oshi No Ko"
+            "anime": "Oshi No Ko",
+            "description": "Handmade, Waterproof/ UV Resistant, ”4 in x 5 in”"
         }
       ],
       "tshirts": [

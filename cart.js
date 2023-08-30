@@ -12,6 +12,10 @@ function displayCart(){
                 style: 'currency',
                 currency: 'PHP'
             });
+            let subtot = sub.toLocaleString('en-PH', {
+                style: 'currency',
+                currency: 'PHP'
+            });
             showItems = 
             `
             <div class="row cartitem" id="cartitem">
@@ -25,7 +29,7 @@ function displayCart(){
             <dt class="dt-edit">Quantity:</dt>
             <dl id="itemqty" class="mx-3">${items.quantity}</dl>
             <dt class="dt-edit">Price:</dt>
-            <dl id="subprice" class="m-0 p-0 dt-edit">${sub}</dl>
+            <dl id="subprice" class="m-0 p-0 dt-edit">${subtot}</dl>
             <dl id="itemprice">(${price} each)</dl>
             </dl>
             </div>
