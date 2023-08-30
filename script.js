@@ -60,22 +60,24 @@ function filter(){
         let price = item.price.toLocaleString('en-PH', {
             style: 'currency',
             currency: 'PHP'
+
         });
         let display = `
             <div class="col-12 col-md-6 col-lg-3">
-                <div class="card h-100"> 
+                <div class="card h-100" data-bs-toggle="modal" data-bs-target="#prodmod" onclick="displayModal(${item.id})" > 
                     <img src="${item.photo1}" class="card-img-top" alt="">
                     <div class="card-body">
                         <h5 class="card-title">${item.prodName}</h5>
                         PHP ${price}
                     </div>
                     <div class="card-footer text-center">
-                        <button class="btn atc" id="addtocart" onclick="addCart('${item.prodName}', ${item.price}, '${item.photo1}')"><i class="fa-solid fa-plus"></i>Add to Cart</button>
+                        <button class="btn atc" id="addtocart" onclick="addCart('${item.prodName}', ${item.price}, '${item.photo1}')"><i class="fa-solid fa-plus" ></i>Add to Cart</button>
                     </div>
                 </div>
             </div>`;
     
         prodDisplay.innerHTML += display;
+        
     }
 //SHOW ALL PRODUCTS
     if (selectedProd === 'allproducts'){
@@ -174,7 +176,92 @@ function filter(){
         }
     }
 filter();
+function displayModal(productId) {
+    // let modalContainer = document.getElementById('prodmod');
+    // modalContainer.innerHTML = "";
+    fetch("./products.json")
+        .then((res) => res.json())
+        .then((data) => {
+            let product = findProductById(data, productId);
+            
+            if (product) {
+                // modalContainer.innerHTML = "";
+                let modalContent = `
+                <div class="modal-content" id="displaySelected">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modaltitle">${product.prodName}</h5>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-7">
+                                <div class="carousel-container">
+                                    <div id="carouselModal" class="carousel slide" data-bs-ride="carousel">      
+                                        <div class="carousel">
+                                            <div class="carousel-item active">
+                                                <img src="${product.photo1}" class="w-100" alt="">                                             
+                                            </div>
+                                            ${product.photo2 ? 
+                                                `<div class="carousel-item">
+                                                <img src="${product.photo2}" class="w-100" alt="">
+                                                </div>` : null}
+                                            ${product.photo3 ? 
+                                            `<div class="carousel-item">
+                                            <img src="${product.photo3}" class="w-100" alt="">
+                                            </div>` : null}
+                                            
+                                        </div>
+                                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselModal" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon"></span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button" data-bs-target="#carouselModal" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon"></span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-5">
+                                <dl>
+                                    <dt>Product:</dt>
+                                    <dd>${product.prodName}</dd>
+                                    <dt>Description:</dt>
+                                    <dd>${product.anime}</dd>
+                                    <dt>Price:</dt>
+                                    <dd>${product.price}</dd>
+                                </dl>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>        
 
+        `;
+        document.getElementById("displaySelected").innerHTML = modalContent;
+        // let modalContainer = document.createElement('div');
+        $('#prodmod').modal('show'); 
+
+        // modalContainer.innerHTML = modalContent;
+        // document.body.appendChild(modalContainer);
+                   
+            }
+        })
+        .catch(function (error) {
+            console.error("Error fetching product data:", error);
+        });
+
+}
+function findProductById(data, id) {
+    for (const category in data.products) {
+        const products = data.products[category];
+        const product = products.find(item => item.id == id);
+
+        if (product) {
+            return product;
+        }
+    }
+
+    return null;
+}
 //DISPLAY ALL PRODUCTS
 // document.addEventListener("DOMContentLoaded", function () {
 //     let prodDisplay = document.querySelector('#trial');

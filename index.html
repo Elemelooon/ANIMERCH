@@ -105,10 +105,10 @@
             <div class="modal-content">
                 <!-- MODAL HEADER -->
                 <div class="modal-header">
-                    <h5 class="modal-title" id="signinMod">SIGN UP FORM</h5>
+                    <h5 class="modal-title signupTitle" id="signinMod">SIGN UP FORM</h5>
                 </div>
                 <!-- MODAL BODY -->
-                <div class="modal-body">
+                <div class="modal-body signupBody">
                     <form>
                         <label>
                             <i class="fas fa-user"></i>
@@ -169,10 +169,10 @@
             <div class="modal-content">
                 <!-- MODAL HEADER -->
                 <div class="modal-header">
-                    <h5 class="modal-title" id="loginMod">LOGIN FORM</h5>
+                    <h5 class="modal-title signupTitle" id="loginMod">LOGIN FORM</h5>
                 </div>
                 <!-- MODAL BODY -->
-                <div class="modal-body">
+                <div class="modal-body signupBody">
                     <form>
                         <label>
                             <i class="fas fa-user"></i>
@@ -335,6 +335,56 @@
     </div>
 
      <!-- GO TO TOP BUTTON -->
+
+    <!-- /MODAL -->
+    <div class="modal" id="prodmod">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content" id="displaySelected">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modaltitle"></h5>
+                </div>
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-7">
+                                <div class="carousel-container">
+                                    <div id="carouselModal" class="carousel slide" data-bs-ride="carousel">      
+                                        <div class="carousel">
+                                            <div class="carousel-item active">
+                                                <img src="" class="w-100" alt="">                                             
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="" class="w-100" alt="">
+                                            </div>
+                                            <div class="carousel-item active">
+                                                <img src="" class="w-100" alt="">
+                                            </div>
+                                        </div>
+                                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselModal" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon"></span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button" data-bs-target="#carouselModal" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon"></span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-5">
+                                <dl>
+                                    <dt>Product:</dt>
+                                    <dd></dd>
+                                    <dt>Description:</dt>
+                                    <dd></dd>
+                                    <dt>Price:</dt>
+                                    <dd></dd>
+                                </dl>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- FOOTER -->
     <div class="container-fluid mt-4">
