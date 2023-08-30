@@ -7,44 +7,7 @@ let password = document.getElementById("password");
 let confirmPassword = document.getElementById("confirmPassword");
 let signUpBtn = document.getElementById("signUpBtn");
     
-// signUpBtn.addEventListener("click", registerInformation);
-// function registerInformation(event){
-//     event.preventDefault();
-//     let usernameValue = username.value;
-//     let emailValue = email.value;
-//     let passwordValue = password.value;
-//     let confirmPasswordValue = confirmPassword.value;
-    
-//     let emailRegX = /^([\w\d]+)@([\w]+)\.([\w\.]+)$/;
-//     let passwordRegX = /^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[\W]).{8,20}[\w\W]/;
-//          // + to combine
-//         //allowing special chars 1 by 1
-//         // $ ending the statement
-//         // {start, end} for range
-//         // add _@\s for spaces
-//         //allowing capital and noncapital letter on our input
-//         //[\w] for a-z, A-Z, 0-9
-//         //[\W] for special chars
-//         //[\d] for digits 0-9
-    
-//         // for password
-//         // 1 = small char
-//         // 1 = big char
-//         // 1 = special char
-//         // 8-10 chars only
-    
-//     if(emailValue.match(emailRegX)){
-//         alert("Valid Email");
-//     }else{
-//         alert("Invalid Email");
-//     }
-    
-//     if(passwordValue.match(passwordRegX)){
-//         alert("Valid Password");
-//     }else{
-//         alert("Invalid Password");
-//     }
-// }
+
     // SIGNUP AND LOGIN FUNCTION
 let signupForm = document.getElementById("signupForm");
 let loginForm = document.getElementById("loginForm");

@@ -6,7 +6,7 @@
     font-family: 'Acme', sans-serif;
 }
 body{
-    background-color: #666;
+    background-color: #facaca;
 }
 /* NAVIGATION BAR */
 nav img{
@@ -17,53 +17,6 @@ nav img{
 }
 .navbar-nav li{
     padding: 20px;
-}
-nav .search-box{
-    display: flex;
-    margin: auto 0;
-    height: 35px;
-    line-height: 35px;
-}
-
-nav .search-box input{
-    border: none;
-    outline: none;
-    background: #fff;
-    height: 100%;
-    padding: 0 10px;
-    font-size: 20px;
-    width: 300px;
-    border-radius: 8px;
-}
-
-nav .search-box span{
-    color: #0a5071;
-    font-size: 20px;
-    background: #fff;
-    height: 100%;
-    padding: 8px;
-    position: relative;
-    cursor: pointer;
-    z-index: 1;
-    border-radius: 8px;
-}
-nav .search-box span:hover{
-    color: #fff;
-}
-nav .search-box span::after{
-    height: 100%;
-    width: 0%;
-    content: '';
-    background: #3ed8b7;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    transition: 0.3s;
-    border-radius: 8px;
-}
-nav .search-box span:hover::after{
-    width: 100%;
 }
 
 .button-container {
@@ -109,13 +62,13 @@ nav .search-box span:hover::after{
 }
 .navbar {
     opacity: .7; /* visibility of the navbar */
-    background-color: #3ed8b7; /* Transparent background */
+    background-color: #252525; /* Transparent background */
     padding: 5px;
     transition: background-color 0.3s ease; /* Smooth transition for background color change */
 }
 .navbar-solid {
     opacity: 1;
-    background-color: #3ed8b7; /* Replace with your desired solid color */
+    background-color: #252525; /* Replace with your desired solid color */
     /* Add any other styles for the navbar when it's solid-colored */
 }
 
@@ -488,7 +441,7 @@ input[type="password"]{
 }
 .footer{
     margin-top: 30px;
-    background-color: #3ed8b7;
+    background-color: #252525;
     color: white;
     padding: 30px 0;
     bottom: 0;
