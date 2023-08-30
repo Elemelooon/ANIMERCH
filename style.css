@@ -242,12 +242,12 @@ input[type="password"]{
     box-shadow: 5px 5px 10px #999;
     color: #fff;
 }
-.modal-title{
+.titleModal{
     font-size: 45px;
     letter-spacing: 2px;
     font-family: 'Teko', sans-serif;
 }
-.modal-body{
+.bodyModal{
     margin-left: 120px;
 }
 .btn{
