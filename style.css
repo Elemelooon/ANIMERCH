@@ -16,7 +16,7 @@ nav img{
     position: sticky !important;
 }
 .navbar-nav li{
-    padding: 30px;
+    padding: 20px;
 }
 nav .search-box{
     display: flex;
