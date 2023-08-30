@@ -93,6 +93,20 @@ nav .search-box span:hover::after{
     background-color: #333;
     color: white;
   }
+  .profileTxt{
+    font-size: 22px;
+    color: white;
+}
+.logoutBtn{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 19px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    background-color: red;
+    color: white;
+}
 .navbar {
     opacity: .7; /* visibility of the navbar */
     background-color: #3ed8b7; /* Transparent background */

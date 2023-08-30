@@ -59,6 +59,7 @@ function addData(event){
     // store data
     localStorage.setItem('userEmail', email);
     localStorage.setItem('userPass', emailPass);
+    alert("Signed Up Successful");
     showProfile();
 }
 
@@ -75,13 +76,14 @@ function checkData(event){
     if(enterEmail == getEmail){
         if(enterPass == getPass){
             alert("Login Successful");
+            showProfile();
         }else {
             alert("Wrong Password");
         }
     }else{
         alert("No User Found");
     }
-    showProfile();
+    
 }
 
 function showProfile() {

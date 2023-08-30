@@ -65,8 +65,8 @@
                         </div>
                     </div>
                     <div id="profile" class="hidden">
-                        <p>User: <span id="profileUsername"></span></p>
-                        <button onclick="logout()">Logout</button>
+                        <p class="profileTxt">User: <span id="profileUsername"></span></p>
+                        <button class="logoutBtn" onclick="logout()">Logout</button>
                     </div>
             </div>
             <script>
@@ -139,7 +139,7 @@
                                 <p> <i class="fa-solid fa-circle-info"> </i> Email and Password must contain: <br> a-z, A-Z, 0-9 </p>
                             </div>
                             <div>
-                                <button class="btn btn-dark" type="submit" id="signUpBtn" onclick="addData()">
+                                <button class="btn btn-dark" type="submit" id="signUpBtn" onclick="addData(event)">
                                     <i class="fas fa-lock"></i>
                                     Sign Up
                                 </button>
@@ -184,7 +184,7 @@
                             </div>
     
                             <div>
-                                <button class="btn btn-dark" type="submit" onclick="checkData()">
+                                <button class="btn btn-dark" type="submit" onclick="checkData(event)">
                                     <i class="fas fa-lock"></i>
                                     Login
                                 </button>
