@@ -16,7 +16,7 @@ nav img{
     position: sticky !important;
 }
 .navbar-nav li{
-    padding: 20px;
+    margin: 20px;
 }
 
 .button-container {
@@ -59,6 +59,12 @@ nav img{
     transition: background-color 0.3s, color 0.3s;
     background-color: red;
     color: white;
+}
+.navbar-toggler-icon{
+    --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e"););
+}
+.navbar-toggler{
+    border: 5px solid white;
 }
 .navbar {
     opacity: .7; /* visibility of the navbar */
@@ -237,100 +243,17 @@ input[type="password"]{
 .new-acc:hover{
     color: #ff0000;
 }
-/* MODAL */
-/* FILTER */
-.filter{
-    position: relative;
-    border-radius: 8px;
-    margin: 40px auto 30px;
-    
-}
-.select-btn{
-    display: flex;
-    height: 50px;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 16px;
-    cursor: pointer;
-    border-radius: 8px;
-    background-color: #fff;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
-}
-.select-btn .btn-text{
-    font-size: 17px;
-    font-weight: 400;
-    color: #333;
-}
-.select-btn .arrow-dwn{
-    display: flex;
-    height: 21px;
-    width: 21px;
-    color: #fff;
-    border-radius: 50%;
-    background-color: #6e93f7;
-    font-size: 14px;
-    align-items: center;
-    justify-content: center;
-    transition: 0.3s;
-}
-.select-btn.open .arrow-dwn{
-    transform: rotate(-180deg);
-}
-.list-items{
-    position: relative;
-    margin-top: 15px;
-    border-radius: 8px;
-    padding: 16px;
-    background-color: #fff;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
-    display: none;
-}
-.select-btn.open ~ .list-items{
-    display: block;
-}
-.list-items .items{
-    display: flex;
-    align-items: center;
-    list-style: none;
-    height: 50px;
-    cursor: pointer;
-    transition: 0.3s;
-    padding: 0 15px;
-    border-radius: 8px;
-}
-.list-items .items:hover{
-    background-color: #e7edfe;
-}
-.items .item-text{
-    font-size: 16px;
-    font-weight: 400;
-    color: #333;
-}
-.items .checkbox{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 16px;
-    width: 16px;
-    border-radius: 4px;
-    margin-right: 12px;
-    border: 1.5px solid #c0c0c0;
-    transition: all 0.3s ease-in-out;
-}
-.items.checked .checkbox{
-    background-color: #4070f4;
-    border-color: #4070f4;
-}
-.checkbox .check-icon{
-    color: #fff;
-    font-size: 11px;
-    transform: scale(0);
-    transition: all 0.3s ease-in-out;
-}
-.items.checked .check-icon{
-    transform: scale(1);
-}
 
+/* CARD */
+.cardbody{
+    box-shadow: 5px 5px 20px black;
+    transition: transform 0.5s;
+}
+.cardbody:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    box-shadow: 5px 5px 20px rgb(255, 255, 255);
+}
 
 /* CAROUSEL */
 
@@ -349,7 +272,9 @@ input[type="password"]{
     width: 100%;
     height: 100%;
 }
-
+.carousel-caption{
+    text-shadow: 2px 2px black;
+}
 .carousel img{
     width: 100%;
     height: 100%;
@@ -374,20 +299,23 @@ input[type="password"]{
     right: 20px;
     display: none; /* Hide the button by default */
     padding: 10px 15px;
-    background-color: rgb(3, 27, 49);
+    background-color: #252525;
     color: #fff;
-    border: none;
+    border: 2px solid white;
     border-radius: 4px;
     cursor: pointer;
-    transition: all .3s;
     opacity: 0;
+    transition: transform 0.5s;
 } 
 .go_to_top_btn.show {
     display: block;
     opacity: 1;
 }
 .go_to_top_btn:hover{
-    background-color: #08231a
+    background-color: #252525;
+    transform: scale(1.10);
+    box-shadow: 5px 5px 20px rgb(255, 255, 255);
+    transition: transform 0.3s;
 }
 .go_to_top_btn i{
     color: #fff;
@@ -437,7 +365,8 @@ input[type="password"]{
     flex-wrap: wrap;
 }
 .footer .row img{
-    width: 150px;
+    width: 200px;
+    margin-top: 50px;
 }
 .footer{
     margin-top: 30px;

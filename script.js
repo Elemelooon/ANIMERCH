@@ -79,7 +79,7 @@ function filter(){
         });
         let display = `
             <div class="col-12 col-md-6 col-lg-3">
-                <div class="card h-100" data-bs-toggle="modal" data-bs-target="#prodmod" onclick="displayModal(${item.id})" > 
+                <div id="prods" class="cardbody card h-100" data-bs-toggle="modal" data-bs-target="#prodmod" onclick="displayModal(${item.id})" > 
                     <img src="${item.photo1}" class="card-img-top" alt="">
                     <div class="card-body">
                         <h5 class="card-title">${item.prodName}</h5>
