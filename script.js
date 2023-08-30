@@ -96,10 +96,11 @@ function logout() {
     signupForm.classList.remove("hidden");
     loginForm.classList.remove("hidden");
 }
+
+
 //FILTER FUNCTIONS
+
 let selectProd = document.getElementById('productselector');
-
-
 function filter(){
     let selectedProd = selectProd.value;
     let prodDisplay = document.querySelector('#trial');
@@ -118,9 +119,6 @@ function filter(){
                     <div class="card-body">
                         <h5 class="card-title">${item.prodName}</h5>
                         PHP ${price}
-                    </div>
-                    <div class="card-footer text-center">
-                        <button class="btn atc" id="addtocart" onclick="addCart('${item.prodName}', ${item.price}, '${item.photo1}')"><i class="fa-solid fa-plus" ></i>Add to Cart</button>
                     </div>
                 </div>
             </div>`;
@@ -225,20 +223,18 @@ function filter(){
         }
     }
 filter();
+
 function displayModal(productId) {
-    // let modalContainer = document.getElementById('prodmod');
-    // modalContainer.innerHTML = "";
     fetch("./products.json")
         .then((res) => res.json())
         .then((data) => {
             let product = findProductById(data, productId);
             
             if (product) {
-                // modalContainer.innerHTML = "";
                 let modalContent = `
                 <div class="modal-content" id="displaySelected">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="modaltitle">${product.prodName}</h5>
+                <div class="modal-header justify-content-center">
+                    <h3 class="modal-title" id="modaltitle">${product.prodName}</h3>
                 </div>
                 <div class="modal-body">
                     <div class="container-fluid">
@@ -248,7 +244,7 @@ function displayModal(productId) {
                                     <div id="carouselModal" class="carousel slide" data-bs-ride="carousel">      
                                         <div class="carousel">
                                             <div class="carousel-item active">
-                                                <img src="${product.photo1}" class="w-100" alt="">                                             
+                                                <img src="${product.photo1}" class="w-100" alt="">            
                                             </div>
                                             ${product.photo2 ? 
                                                 `<div class="carousel-item">
@@ -278,6 +274,22 @@ function displayModal(productId) {
                                     <dt>Price:</dt>
                                     <dd>${product.price}</dd>
                                 </dl>
+                                <form>
+                                <label for="qtybox" class="form-label">Quantity:</label>
+                                    <select class="form-select" id="qtybox" name="">
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                        <option value="6">6</option>
+                                        <option value="7">7</option>
+                                        <option value="8">8</option>
+                                    </select>
+                                </form>
+                                <div class="text-center my-5">
+                                <button class="btn btn-outline-dark atc" id="addtocart" onclick="addCart('${product.prodName}', ${product.price}, '${product.photo1}' ,'${product.id}')"><i class="fa-solid fa-plus"></i>Add to Cart</button>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -285,20 +297,17 @@ function displayModal(productId) {
             </div>        
 
         `;
+        
         document.getElementById("displaySelected").innerHTML = modalContent;
-        // let modalContainer = document.createElement('div');
-        $('#prodmod').modal('show'); 
 
-        // modalContainer.innerHTML = modalContent;
-        // document.body.appendChild(modalContainer);
-                   
-            }
-        })
+        $('#prodmod').modal('show'); 
+        }
+    })
         .catch(function (error) {
             console.error("Error fetching product data:", error);
         });
-
 }
+
 function findProductById(data, id) {
     for (const category in data.products) {
         const products = data.products[category];
@@ -311,48 +320,6 @@ function findProductById(data, id) {
 
     return null;
 }
-//DISPLAY ALL PRODUCTS
-// document.addEventListener("DOMContentLoaded", function () {
-//     let prodDisplay = document.querySelector('#trial');
-
-//     fetch("./products.json")
-//     .then((res) => res.json())
-//     .then((data) => {
-//         const allProducts = data.products;
-        
-//         for (const category in allProducts) {
-//             allProducts[category].forEach((product) => {
-//                 displayProd(product);
-//             });
-//         }
-
-//         function displayProd(item) {
-//             let price = item.price.toLocaleString('en-PH', {
-//                 style: 'currency',
-//                 currency: 'PHP'
-//             });
-//             let display = `
-//                 <div class="col-12 col-md-6 col-lg-3">
-//                     <div class="card h-100"> 
-//                         <img src="${item.photo1}" class="card-img-top" alt="">
-//                         <div class="card-body">
-//                             <h5 class="card-title">${item.prodName}</h5>
-//                             PHP ${price}
-//                         </div>
-//                         <div class="card-footer text-center">
-//                             <button class="btn atc" id="addtocart" onclick="addCart('${item.prodName}', ${item.price}, '${item.photo1}')"><i class="fa-solid fa-plus"></i>Add to Cart</button>
-//                         </div>
-//                     </div>
-//                 </div>`;
-        
-//             prodDisplay.innerHTML += display;
-//         }
-
-//     })
-//     .catch(function (error) {
-//         console.error("Error fetching product data:", error);
-//     });
-// });
 
 //CART
 
@@ -362,12 +329,20 @@ if (localStorage.getItem("myCart")){
     cart = JSON.parse(localStorage.getItem("myCart"));
 }
 
-function addCart(prodName, prodPrice, prodImg) {
-    alert("Sucessfully Added to Cart");
-    cart.push({pName: prodName, pPrice: prodPrice, pImg: prodImg});
+function addCart(prodName, prodPrice, prodImg, prodId) {
+    let qtybox = document.getElementById('qtybox');
+    let quantity = parseInt(qtybox.value);
+
+    let existingProd = cart.find(item => item.pId == prodId);
+
+    if (existingProd) {
+        existingProd.quantity += quantity;
+    } else {
+        cart.push({pName: prodName, pPrice: prodPrice, pImg: prodImg, quantity: quantity, pId: prodId});
+}
 
     localStorage.setItem("myCart", JSON.stringify(cart));
-    
+    alert("Sucessfully Added to Cart");
     sideCart();
 }
 
@@ -375,10 +350,10 @@ function sideCart(){
     let totalPrice = 0;
     let getCart = JSON.parse(localStorage.getItem("myCart"));
     let showItems = "";
-    // let items = JSON.parse(localStorage.getItem("myCart"));
-    // document.getElementById('itemcount').innerHTML = items.length;
     getCart.forEach(
         function(prods, index){
+            let qty = prods.quantity;
+            let sub = qty * prods.pPrice;
             let price = prods.pPrice.toLocaleString('en-PH', {
                 style: 'currency',
                 currency: 'PHP'
@@ -390,13 +365,20 @@ function sideCart(){
             </div>
             <div class="cartdes col-8">
                 <h5 id="itemname">${prods.pName}</h5>
-                <p id="itemprice"> ${price}</p>
+                <div class="row">
+                <div class="col-5">
+                    <p id="itemqty">Qty: ${prods.quantity}</p>
+                </div>
+                <div class="col-5">
+                    <p id="itemprice">${price}</p>
+                </div>
+                </div>
                 <hr>
                 </div>
                 <button onclick='removeside(${index})' class="btn-close text-white" id="removebtn"></button>
             </div>` + showItems ;
 
-            totalPrice += prods.pPrice;
+            totalPrice += sub;
         }
     );
     let finalPrice = Number(totalPrice).toLocaleString('en-PH', {
@@ -410,8 +392,7 @@ sideCart();
 
 
 function removeside(index){
-    let getCart = JSON.parse(localStorage.getItem("myCart"));
-    let removedItem = getCart.splice(index, 1)[0];
-    localStorage.setItem("myCart", JSON.stringify(getCart));
+    cart.splice(index, 1);
+    localStorage.setItem("myCart", JSON.stringify(cart));
     sideCart(); 
 } 

@@ -242,12 +242,12 @@ input[type="password"]{
     box-shadow: 5px 5px 10px #999;
     color: #fff;
 }
-.modal-title{
+.titleModal{
     font-size: 45px;
     letter-spacing: 2px;
     font-family: 'Teko', sans-serif;
 }
-.modal-body{
+.bodyModal{
     margin-left: 120px;
 }
 .hidden{
@@ -425,7 +425,12 @@ input[type="password"]{
     margin-bottom: 350px;
     background-color: gray;    
 }
-
+.carousel-control-prev-icon  {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23221c1c' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23221c1c' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
 /* go to top button */
 .go_to_top_btn{
     position: fixed;
@@ -462,12 +467,8 @@ input[type="password"]{
     text-align: start;
     padding: 10px;
 }
-#itemprice {
-    text-align: end;
-}
-#itemimage {
-    height: 20%;
-    width: 20%;
+#sidecartimg, #itemimage {
+    width: 100%;
 }
 #cartbtn {
     border-style: solid;
@@ -482,9 +483,14 @@ input[type="password"]{
     top: 5px;
     right: 5px;   
 }
-
+.dt-edit {
+    letter-spacing: 3px;
+}
 .ordersum {
     max-height: 509px;
+}
+#itemprice {
+    color: gray;
 }
 
 /* FOOTER */

@@ -6,20 +6,36 @@ function displayCart(){
     document.getElementById('itemcount').innerHTML = items.length;
     getCart.forEach(
         function(items, index){
+            let qty = items.quantity;
+            let sub = qty * items.pPrice;
             let price = items.pPrice.toLocaleString('en-PH', {
                 style: 'currency',
                 currency: 'PHP'
             });
             showItems = 
-            `<div class="cartitem" id="cartitem">
+            `
+            <div class="row cartitem" id="cartitem">
+            <div class=" col-4">
             <img src=${items.pImg} id="itemimage">
+            </div>
+            <div class="cartdes col-8">
             <button onclick='remove(${index})' class="btn-close text-white" id="removebtn"></button>
             <h3 id="itemname">${items.pName}</h3>
-            <p id="itemprice"> ${price}</p>
+            <dl class="text-end">
+            <dt class="dt-edit">Quantity:</dt>
+            <dl id="itemqty" class="mx-3">${items.quantity}</dl>
+            <dt class="dt-edit">Price:</dt>
+            <dl id="subprice" class="m-0 p-0 dt-edit">${sub}</dl>
+            <dl id="itemprice">(${price} each)</dl>
+            </dl>
+            </div>
             <hr>
             </div>` + showItems ;
 
-            totalPrice += items.pPrice;
+            
+            totalPrice += sub;
+            
+
         }
     );
     let finalPrice = Number(totalPrice).toLocaleString('en-PH', {
