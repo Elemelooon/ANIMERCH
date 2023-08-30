@@ -491,6 +491,7 @@ input[type="password"]{
     background-color: #3ed8b7;
     color: white;
     padding: 30px 0;
+    bottom: 0;
 }
 .footer ul{
     list-style: none;
